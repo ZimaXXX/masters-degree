@@ -1,0 +1,19 @@
+Ocena jakosci ropoznawania gestow statycznych przy uzyciu technologii Microsoft Kinect
+
+
+
+Wstêp
+Cel i zakres
+State of the art
+	gotowe rozwiazania
+	artykuly
+	nad czym ludzie pracuja
+	przydatne technologie
+Testbed - srodowisko badawcze, przemyslenia, tmo co stworzyl, interfejs
+System w uzyciu
+Eksperymenty - testy
+Podsumowanie na podstawie cel i zakres z wnioskami
+	co sie nei udalo
+	problemy
+	future work
+literatura

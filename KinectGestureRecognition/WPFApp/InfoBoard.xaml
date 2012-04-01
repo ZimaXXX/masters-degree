@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="WPFApp.InfoBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:Runner="clr-namespace:WPFApp"
+             x:Name="infoBoard"
+             Loaded="infoBoard_Loaded">
+    <UserControl.Resources>
+        <Storyboard x:Key="ShowInfoBoard">
+            <DoubleAnimation
+                        Storyboard.TargetName="MainGrid"
+                        Storyboard.TargetProperty="(Grid.Opacity)"
+                From="0.0" To="0.8" Duration="0:0:1">
+            </DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Key="HideInfoBoard">
+            <DoubleAnimation
+                        Storyboard.TargetName="MainGrid"
+                        Storyboard.TargetProperty="(Grid.Opacity)"
+                From="0.8" To="0.0" Duration="0:0:1">
+            </DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Key="ShowAndHideInfoBoard">
+            <DoubleAnimation 
+                        Storyboard.TargetName="MainGrid"
+                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                         From="0"
+                                         To="1"
+                                         Duration="0:0:1" />
+            <Storyboard BeginTime="0:0:3">
+                <DoubleAnimation
+                        Storyboard.TargetName="MainGrid"
+                        Storyboard.TargetProperty="(Grid.Opacity)"
+                From="1" To="0.0" Duration="0:0:1">
+                </DoubleAnimation>
+            </Storyboard>
+        </Storyboard>
+    </UserControl.Resources>
+    <Grid Name="MainGrid" Style="{StaticResource opaqueGrid}">
+        <Border Width="Auto" Height="Auto" CornerRadius="10">
+            <StackPanel x:Name="MainStackPanel" Margin="10 10 10 10">
+            </StackPanel>  
+        </Border>
+    </Grid>
+</UserControl>
