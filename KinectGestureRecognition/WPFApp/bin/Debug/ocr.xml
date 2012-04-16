@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <layers>3</layers>
+  <unit type="l" layer="0">Link.0, L0</unit>
+  <unit type="l" layer="0">Link.1, L0</unit>
+  <unit type="n" layer="1" func="si">Neuron.2, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.3, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.4, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.5, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.6, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.7, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.8, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.9, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.10, L1</unit>
+  <unit type="n" layer="1" func="si">Neuron.11, L1</unit>
+  <unit type="n" layer="2" func="si">Neuron.12, L2</unit>
+  <unit type="b" value="1">Bias</unit>
+  <connection from="Link.0, L0" to="Neuron.2, L1">1</connection>
+  <connection from="Link.0, L0" to="Neuron.3, L1">2</connection>
+  <connection from="Link.0, L0" to="Neuron.4, L1">3</connection>
+  <connection from="Link.0, L0" to="Neuron.5, L1">4</connection>
+  <connection from="Link.0, L0" to="Neuron.6, L1">5</connection>
+  <connection from="Link.0, L0" to="Neuron.7, L1">6</connection>
+  <connection from="Link.0, L0" to="Neuron.8, L1">7</connection>
+  <connection from="Link.0, L0" to="Neuron.9, L1">8</connection>
+  <connection from="Link.0, L0" to="Neuron.10, L1">9</connection>
+  <connection from="Link.0, L0" to="Neuron.11, L1">10</connection>
+  <connection from="Link.1, L0" to="Neuron.2, L1">11</connection>
+  <connection from="Link.1, L0" to="Neuron.3, L1">12</connection>
+  <connection from="Link.1, L0" to="Neuron.4, L1">13</connection>
+  <connection from="Link.1, L0" to="Neuron.5, L1">14</connection>
+  <connection from="Link.1, L0" to="Neuron.6, L1">15</connection>
+  <connection from="Link.1, L0" to="Neuron.7, L1">16</connection>
+  <connection from="Link.1, L0" to="Neuron.8, L1">17</connection>
+  <connection from="Link.1, L0" to="Neuron.9, L1">18</connection>
+  <connection from="Link.1, L0" to="Neuron.10, L1">19</connection>
+  <connection from="Link.1, L0" to="Neuron.11, L1">20</connection>
+  <connection from="Neuron.2, L1" to="Neuron.12, L2">21</connection>
+  <connection from="Bias" to="Neuron.2, L1">22</connection>
+  <connection from="Neuron.3, L1" to="Neuron.12, L2">23</connection>
+  <connection from="Bias" to="Neuron.3, L1">24</connection>
+  <connection from="Neuron.4, L1" to="Neuron.12, L2">25</connection>
+  <connection from="Bias" to="Neuron.4, L1">26</connection>
+  <connection from="Neuron.5, L1" to="Neuron.12, L2">27</connection>
+  <connection from="Bias" to="Neuron.5, L1">28</connection>
+  <connection from="Neuron.6, L1" to="Neuron.12, L2">29</connection>
+  <connection from="Bias" to="Neuron.6, L1">30</connection>
+  <connection from="Neuron.7, L1" to="Neuron.12, L2">31</connection>
+  <connection from="Bias" to="Neuron.7, L1">32</connection>
+  <connection from="Neuron.8, L1" to="Neuron.12, L2">33</connection>
+  <connection from="Bias" to="Neuron.8, L1">34</connection>
+  <connection from="Neuron.9, L1" to="Neuron.12, L2">35</connection>
+  <connection from="Bias" to="Neuron.9, L1">36</connection>
+  <connection from="Neuron.10, L1" to="Neuron.12, L2">37</connection>
+  <connection from="Bias" to="Neuron.10, L1">38</connection>
+  <connection from="Neuron.11, L1" to="Neuron.12, L2">39</connection>
+  <connection from="Bias" to="Neuron.11, L1">40</connection>
+  <connection from="Bias" to="Neuron.12, L2">41</connection>
+  <weight type="w" index="1">-0,61829035522726083</weight>
+  <weight type="w" index="2">-1,0261777946938375</weight>
+  <weight type="w" index="3">-0,69494546705233173</weight>
+  <weight type="w" index="4">-0,59671503715736662</weight>
+  <weight type="w" index="5">0,19958368094140885</weight>
+  <weight type="w" index="6">0,14633792135839274</weight>
+  <weight type="w" index="7">-1,2028503481518353</weight>
+  <weight type="w" index="8">0,13930962946777362</weight>
+  <weight type="w" index="9">-0,392619079384784</weight>
+  <weight type="w" index="10">0,48363143012995519</weight>
+  <weight type="w" index="11">-0,58999898484872437</weight>
+  <weight type="w" index="12">0,11108553761241599</weight>
+  <weight type="w" index="13">-0,73159070891791733</weight>
+  <weight type="w" index="14">-1,0349425543251567</weight>
+  <weight type="w" index="15">0,82020784562849614</weight>
+  <weight type="w" index="16">1,6357141473120991</weight>
+  <weight type="w" index="17">-0,056828794077248439</weight>
+  <weight type="w" index="18">0,256747149984224</weight>
+  <weight type="w" index="19">-0,49153652851802015</weight>
+  <weight type="w" index="20">0,48189739592021624</weight>
+  <weight type="w" index="21">-0,88940311072897882</weight>
+  <weight type="w" index="22">-0,282308227932572</weight>
+  <weight type="w" index="23">-0,96035306988340408</weight>
+  <weight type="w" index="24">-0,012616684918787743</weight>
+  <weight type="w" index="25">-1,5293044612269706</weight>
+  <weight type="w" index="26">0,4990973827700414</weight>
+  <weight type="w" index="27">-1,6582623243905861</weight>
+  <weight type="w" index="28">0,565008340929697</weight>
+  <weight type="w" index="29">0,45044749423134395</weight>
+  <weight type="w" index="30">-0,15852800638817216</weight>
+  <weight type="w" index="31">1,8673031624670444</weight>
+  <weight type="w" index="32">-0,74156099801810593</weight>
+  <weight type="w" index="33">-1,1554344081989361</weight>
+  <weight type="w" index="34">0,37011057809589992</weight>
+  <weight type="w" index="35">0,048582686895701874</weight>
+  <weight type="w" index="36">0,23175782474205137</weight>
+  <weight type="w" index="37">-0,914755303903724</weight>
+  <weight type="w" index="38">0,45280945067920836</weight>
+  <weight type="w" index="39">1,0105980200098494</weight>
+  <weight type="w" index="40">-0,75988128793308929</weight>
+  <weight type="w" index="41">0,88133156470008456</weight>
+</root>
