@@ -1,0 +1,34 @@
+Konspekt pracy magisterskiej
+Temat: Ocena jakosci ropoznawania gestow statycznych przy uzyciu technologii Microsoft Kinect
+
+Cel pracy:
+Celem pracy jest weryfikacja przytnoœci i ³atwoœci u¿ycia narzêdzia Microsoft Kinect w procesie rozpoznawania gestów statycznych.
+
+Wstêp:
+Dlaczego zainteresowa³em siê tym tematem, co to jest Kinect, dlaczego wybra³em akurat Kinecta.
+
+Stan wiedzy (SOA):
+Co Kinect daje sam z siebie? (Strumienie VGA, Depth, Skeleton)
+Opis projektów i artyku³ów na temat rozpoznawania gestów.
+Technologie, których warto u¿yæ w projekcie opartym na Kinekcie.
+
+Œrodowisko badawcze:
+Opis projektu.
+Technologie wykorzystane w projekcie.
+Pomys³y i koncepcje dotycz¹ce rozwi¹zywania problemów.
+
+System w u¿yciu:
+Opis sterowania aplikacj¹, przyk³adowe zastosowanie, ops funkcji aplikacji i ich przeznaczenia.
+
+Eksperymenty:
+Propozycja eksperymentów opartych na zmiennej odpowiedzialnej za próg oznaczaj¹cy rozpoznanie. (Trzeba dorobiæ CMT z tym zwi¹zany)
+Przeprowadzenie eksperymentów.
+
+Podsumowanie:
+Podsumowanie wyników eksperymentów, ocena przydatnoœci Kinecta w rozpoznawaniu gestów statycznych.
+Co siê nie uda³o (Nie wiem:P).
+Problemy (np. podejœcie do rozpoznawania ruchów nóg).
+Dalszy zakres badañ.
+
+Literatura:
+Tyle artyku³ow i stron ile siê da:)
