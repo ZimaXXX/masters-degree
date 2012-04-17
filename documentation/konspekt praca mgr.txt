@@ -18,7 +18,7 @@ Technologie wykorzystane w projekcie.
 Pomys³y i koncepcje dotycz¹ce rozwi¹zywania problemów.
 
 System w u¿yciu:
-Opis sterowania aplikacj¹, przyk³adowe zastosowanie, ops funkcji aplikacji i ich przeznaczenia.
+Opis sterowania aplikacj¹, przyk³adowe zastosowanie, opis funkcji aplikacji i ich przeznaczenia.
 
 Eksperymenty:
 Propozycja eksperymentów opartych na zmiennej odpowiedzialnej za próg oznaczaj¹cy rozpoznanie. (Trzeba dorobiæ CMT z tym zwi¹zany)
