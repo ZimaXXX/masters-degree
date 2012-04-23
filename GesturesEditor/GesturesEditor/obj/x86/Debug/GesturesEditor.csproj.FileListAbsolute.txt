@@ -1,0 +1,17 @@
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\bin\Debug\GesturesEditor.exe
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\bin\Debug\GesturesEditor.pdb
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\MainWindow.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\App.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor_MarkupCompile.cache
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.g.resources
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.Properties.Resources.resources
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.exe
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.pdb
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\NewNetworkWindow.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\NewNetworkWindow.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\EditFieldWindow.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\EditFieldWindow.g.cs

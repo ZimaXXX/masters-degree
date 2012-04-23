@@ -1,0 +1,29 @@
+﻿<Window x:Class="GesturesEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GesturesEditor" Height="350" Width="525">
+    <Grid>
+        <Button Content="Load networks" Height="23" HorizontalAlignment="Left" Margin="52,33,0,0" Name="bLoadNetworks" VerticalAlignment="Top" Width="153" Click="bLoadNetworks_Click" />
+
+        <ListBox Height="100" HorizontalAlignment="Left" Margin="68,105,0,0" Name="listBoxGesturesBase" VerticalAlignment="Top" Width="120" ItemsSource="{Binding Path=GestureMetadataContainers}" DisplayMemberPath="Name" IsSynchronizedWithCurrentItem="True" >
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                    <EventSetter Event="MouseDoubleClick" Handler="listBoxGesturesBase_MouseDoubleClick"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+        <ListBox Height="100" HorizontalAlignment="Left" Margin="333,105,0,0" Name="listBoxGesturesNames" VerticalAlignment="Top" Width="120" ItemsSource="{Binding Path=SelectedItem.GesturesMetadata, ElementName=listBoxGesturesBase}" DisplayMemberPath="GestureName" IsSynchronizedWithCurrentItem="True" >
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                    <EventSetter Event="MouseDoubleClick" Handler="listBoxGesturesNames_MouseDoubleClick"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+        <Button Content="Add a new network" Height="23" HorizontalAlignment="Left" Margin="52,232,0,0" Name="bNewNetwork" VerticalAlignment="Top" Width="153" Click="bNewNetwork_Click" />
+        <Button Content="Remove selected network" Height="23" HorizontalAlignment="Left" Margin="52,273,0,0" Name="bRemoveNetwork" VerticalAlignment="Top" Width="153" Click="bRemoveNetwork_Click" />
+        <Button Content="Save to DB" Height="64" HorizontalAlignment="Left" Margin="319,232,0,0" Name="bSaveToDB" VerticalAlignment="Top" Width="153
+                " DataContext="{Binding}" Click="bSaveToDB_Click" />
+        <Label Content="Networks:" Height="28" HorizontalAlignment="Left" Margin="96,74,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Gestures names:" Height="28" Margin="346,74,61,0" Name="label2" VerticalAlignment="Top" />
+    </Grid>
+</Window>
