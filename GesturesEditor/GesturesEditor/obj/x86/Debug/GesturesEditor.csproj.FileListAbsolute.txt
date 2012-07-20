@@ -15,3 +15,5 @@ C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEdito
 C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\NewNetworkWindow.g.cs
 C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\EditFieldWindow.baml
 C:\Users\Zima\Documents\Visual Studio 2010\Projects\GesturesEditor\GesturesEditor\obj\x86\Debug\EditFieldWindow.g.cs
+C:\Users\Zima\masters-degree\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.exe
+C:\Users\Zima\masters-degree\GesturesEditor\GesturesEditor\obj\x86\Debug\GesturesEditor.pdb

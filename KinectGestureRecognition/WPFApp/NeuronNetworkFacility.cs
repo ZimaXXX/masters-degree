@@ -119,6 +119,7 @@ namespace WPFApp
 
         public MultilayerPerceptron LearnNetwork(List<TrainingData> trainingList)
         {
+            mw.frameworkConstants.AppendToFile("Learning network\n");
             GestureMetadata gm = (GestureMetadata)mw.frameworkConstants.GesturesList[0];
             int[] layers = new int[] { gm.NumberOfInputs, HiddenNeurons, gm.NumberOfOutputs };
             MultilayerPerceptron ann = new MLPGenerator().Create(layers, 1, new Sigmoid(2));
@@ -128,6 +129,7 @@ namespace WPFApp
             ann.LearnFactor = LearnRate;
             //var res = ann.BP(new BPRequest(trainingList.ToArray(), Epochs));
             TrainingData[] tdArray = trainingList.ToArray();
+            mw.frameworkConstants.AppendToFile("Number of examples: " + tdArray.Length + "\n");
             tdArray = RandomPermutation<TrainingData>(tdArray);
             AsyncLearnMethodCaller caller = new AsyncLearnMethodCaller(ann.BP);
             IAsyncResult result = caller.BeginInvoke(new BPRequest(tdArray, Epochs), new AsyncCallback(CallbackMethod), null);
@@ -146,6 +148,8 @@ namespace WPFApp
             var res = caller.EndInvoke(ar);
             mw.frameworkConstants.CurrentInformation = mw.frameworkConstants.Info_NetworkLearned;
             InfoBoard ib = ((InfoBoard)mw.ibMap[FrameworkConstants.IB_INFORMATION]);
+            mw.frameworkConstants.EndMeasuring();
+            
             ib.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new System.Windows.Threading.DispatcherOperationCallback(delegate
            {
                ib.ShowAndHideInfoBoard();
@@ -375,6 +379,7 @@ namespace WPFApp
 
         public void ProcessRecognition(Canvas canvas, ArrayList gesturesList, RECOGNITION_MODE mode)
         {
+            mw.frameworkConstants.AppendToFile("Performing recognition\n");
             currentMode = mode;
             currentGesturesList = gesturesList;
             //currentNetwork = LearnNetwork(currentGesturesList);
@@ -452,20 +457,32 @@ namespace WPFApp
 
         private string RecognizeGesture()
         {
-
+            //mw.frameworkConstants.StartMeasuring();
             //Point lastPoint = capturedGesture.Last<Point>();
             double[] lastInput = capturedGesture[capturedGesture.Count - 1];
             
             //double[] inputArray = new double[] { lastPoint.X, lastPoint.Y };
             CurrentInput = lastInput;
-
+            //DateTime a = DateTime.Now;
             double[] output = currentNetwork.Pulse(lastInput);
+            //TimeSpan ts = DateTime.Now - a;
+            //MessageBox.Show(ts.Milliseconds.ToString());
+            LinkedList<string> al = new LinkedList<string>();
+            al.AddLast("Recognition values");
+            for(int i = 0; i < output.Length; ++i)
+            {
+                String s = "Name: " + ((GestureMetadata)currentGesturesList[i]).GestureName + " Value: " + output[i];
+                Console.WriteLine(s);
+                al.AddLast(s);
+            }
+            System.IO.File.AppendAllLines(mw.frameworkConstants.pathToFile, al.ToArray<string>());
             //TODO: Dorobić xmla
             //System.Console.WriteLine("Value: " + out);
 
             //TODO: obliczać jakoś tolerancję
             string gesture = DecideRecognitionValue(output, 0.15);
             Console.WriteLine("Gesture: " + gesture);
+            mw.frameworkConstants.EndMeasuring();
             return gesture;
         }
         private string DecideRecognitionValue(double[] output, double tolerance)
@@ -485,11 +502,12 @@ namespace WPFApp
                 //UWAGA! Lista musi być posortowana po outputposition! Może by użyc ICompare?
                 int outputPosition = ((GestureMetadata)currentGesturesList[indexOfHighestValue]).OutputPosition;
                 CurrentOutput = GenerateOutput(outputPosition, output.Length);
-                return ((GestureMetadata)currentGesturesList[indexOfHighestValue]).GestureName;               
+                String result = ((GestureMetadata)currentGesturesList[indexOfHighestValue]).GestureName;
+                mw.frameworkConstants.AppendToFile("Recognized gesture: " + result + "\n");
+                return result;
             }
             else
-                //TODO: Translate this!
-                return "Cannot decide!";           
+                return mw.frameworkConstants.Info_CannotDecide;           
         }
 
         public double[] GenerateOutput(int outputPosition, int outputLength)
@@ -521,8 +539,6 @@ namespace WPFApp
 
         private bool VerifyStaticPosition(double jitter, int numberOfFrames)
         {
-            double jitterX = jitter;
-            double jitterY = jitter;
             int count = capturedGesture.Count() - 1;
             bool isStatic = true;
             //Point[] pointMap = capturedGesture.ToArray<Point>();

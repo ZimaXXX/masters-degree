@@ -46,11 +46,14 @@ namespace WPFApp
             {
                 case Commands.LOAD_MAIN_MENU:
                 {
+                    mw.frameworkConstants.AppendToFile("###############\n");
+                    mw.frameworkConstants.AppendToFile("Application started\n");
+                    mw.frameworkConstants.AppendToFile("###############\n");
                     LinkedList<GraphicalEffectsMetadata> gems = new LinkedList<GraphicalEffectsMetadata>();
                     gems.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_GESTURES] as GraphicalEffectsMetadata);
                     gems.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_LEARNING] as GraphicalEffectsMetadata);
                     gems.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_CONFIGURATION] as GraphicalEffectsMetadata);
-                    gems.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_STATISTICS] as GraphicalEffectsMetadata);
+                    gems.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_EXIT] as GraphicalEffectsMetadata);
                     mw.frameworkConstants.CurrentPage = Pages.MAIN_PAGE;
                     graphicalEffects.UnhideCmtsOnCanvas(gems, animationTime);
 
@@ -69,6 +72,8 @@ namespace WPFApp
                     ArrayList gestures_map_al = SerializationUtils.DeSerializeArrayList(gestures_map_xml, typeof(GestureMetadata));
                     mw.frameworkConstants.GesturesList = gestures_map_al;
                     int screens = mw.CreateGesturesCMTs(mw.frameworkConstants.GesturesList);
+
+                    mw.frameworkConstants.StartMeasuring();
                     List<TrainingData> training = new List<TrainingData>();
                     foreach (LearnElement le in learnElements)
                     {
@@ -88,7 +93,7 @@ namespace WPFApp
                     gemsMain.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_GESTURES] as GraphicalEffectsMetadata);
                     gemsMain.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_LEARNING] as GraphicalEffectsMetadata);
                     gemsMain.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_CONFIGURATION] as GraphicalEffectsMetadata);
-                    gemsMain.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_STATISTICS] as GraphicalEffectsMetadata);
+                    gemsMain.AddLast(mw.cmtsHashMain[FrameworkConstants.CMT_EXIT] as GraphicalEffectsMetadata);
 
                     LinkedList<GraphicalEffectsMetadata> gemsConfiguration = new LinkedList<GraphicalEffectsMetadata>();
                     gemsConfiguration.AddLast(mw.cmtsHashConfiguration[FrameworkConstants.CMT_CONFIGURATION_LANGUAGE] as GraphicalEffectsMetadata);
@@ -104,8 +109,8 @@ namespace WPFApp
                     gemsGesturesSecondScreen.AddLast(mw.cmtsHashGestures[FrameworkConstants.CMT_GESTURES_SAVE_TO_DB] as GraphicalEffectsMetadata);
                     gemsGesturesSecondScreen.AddLast(mw.cmtsHashGestures[FrameworkConstants.CMT_GESTURES_LEARN_GESTURE] as GraphicalEffectsMetadata);
 
-                    LinkedList<GraphicalEffectsMetadata> gemsStatistics = new LinkedList<GraphicalEffectsMetadata>();
-                    gemsStatistics.AddLast(mw.cmtsHashConfiguration[FrameworkConstants.CMT_CONFIGURATION_MAIN_MENU] as GraphicalEffectsMetadata);
+                    //LinkedList<GraphicalEffectsMetadata> gemsStatistics = new LinkedList<GraphicalEffectsMetadata>();
+                    //gemsStatistics.AddLast(mw.cmtsHashConfiguration[FrameworkConstants.CMT_CONFIGURATION_MAIN_MENU] as GraphicalEffectsMetadata);
 
                     LinkedList<GraphicalEffectsMetadata> gemsLearningFirstScreen = new LinkedList<GraphicalEffectsMetadata>();
                     LinkedList<GraphicalEffectsMetadata> gemsLearningSecondScreen = new LinkedList<GraphicalEffectsMetadata>();
@@ -138,7 +143,7 @@ namespace WPFApp
                         graphicalEffects.UnhideCmtsOnCanvas(gemsLearningFirstScreen, animationTime);
                         //currentLearningScreen = gemsLearningFirstScreen;
                     }
-                    else if (cmt.Name.Equals(FrameworkConstants.CMT_STATISTICS))
+                    else if (cmt.Name.Equals(FrameworkConstants.CMT_EXIT))
                     {
                         //mw.frameworkConstants.CurrentPage = Pages.STATISTICS_PAGE;
                         //graphicalEffects.HideCmtsOnCanvas(gemsMain, animationTime, Properties.Settings.Default.CombinedAnimationDirection);
@@ -292,6 +297,8 @@ namespace WPFApp
                 {
                     if (cmt.Name.Equals(FrameworkConstants.CMT_LEARNING_LEARN))
                     {
+                        mw.frameworkConstants.StartMeasuring();
+
                         mw.frameworkConstants.HiddenNeurons = (int)((CircularMinuteTimer)(mw.cmtsMap[FrameworkConstants.CMT_LEARNING_HIDDEN_NEURONS])).Value;
                         mw.frameworkConstants.Epochs = (int)((CircularMinuteTimer)(mw.cmtsMap[FrameworkConstants.CMT_LEARNING_EPOCHS])).Value;
                         mw.frameworkConstants.Momentum = (double)((CircularMinuteTimer)(mw.cmtsMap[FrameworkConstants.CMT_LEARNING_MOMENTUM])).Value;
@@ -322,6 +329,7 @@ namespace WPFApp
                 {
                     if (cmt.Name.Equals(FrameworkConstants.CMT_GESTURES_RECORDING))
                     {
+                        mw.frameworkConstants.StartMeasuring();
                         mw.nnf.CurrentInput = null;
                         mw.nnf.CurrentOutput = null;
                         LinkedList<GraphicalEffectsMetadata> gemsGesturesEveryScreen = new LinkedList<GraphicalEffectsMetadata>();
@@ -402,6 +410,8 @@ namespace WPFApp
                 {
                     if (cmt.Name.Equals(FrameworkConstants.CMT_GESTURES_SAVE_TO_DB))
                     {
+                        mw.frameworkConstants.AppendToFile("Saving to database\n");
+                        mw.frameworkConstants.StartMeasuring();
                         ArrayList altd = new ArrayList();
                         foreach(TrainingData td in mw.currentTrainingData)
                         {
@@ -412,6 +422,7 @@ namespace WPFApp
                         string sql = "UPDATE neural_gestures SET learn_xml='" + xml + "' WHERE gesture_base_name='" + gesture_base_name + "';";
                         mw.dbUtils.PerformMySQLCommand(sql);
                         mw.frameworkConstants.CurrentInformation = mw.frameworkConstants.Info_DatabaseUpdated;
+                        mw.frameworkConstants.EndMeasuring();
                         ((InfoBoard)mw.ibMap[FrameworkConstants.IB_INFORMATION]).ShowAndHideInfoBoard();
                         //string sql = "insert into neural_gestures  '" + gestures_base_name + "'
                     }

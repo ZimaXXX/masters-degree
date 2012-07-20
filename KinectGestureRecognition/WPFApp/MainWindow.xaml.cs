@@ -36,7 +36,7 @@ namespace WPFApp
         public Hashtable cmtsHashGestures = null;
         public Hashtable cmtsHashLearning = null;
         public Hashtable cmtsHashConfiguration = null;
-        public Hashtable cmtsHashStatistics = null;
+        //public Hashtable cmtsHashStatistics = null;
         public Hashtable cmtsMap = null;
         public List<TrainingData> currentTrainingData = null;
         public Hashtable ibMap = null;
@@ -59,7 +59,7 @@ namespace WPFApp
             cmtsHashConfiguration = new Hashtable();
             cmtsHashGestures = new Hashtable();
             cmtsHashLearning = new Hashtable();
-            cmtsHashStatistics = new Hashtable();
+            //cmtsHashStatistics = new Hashtable();
             cmtsHashLearningGestures = new Hashtable();
             graphicalEffects = new GraphicalEffects();
             frameworkConstants = new FrameworkConstants();
@@ -246,16 +246,15 @@ namespace WPFApp
             ArrayList al = new ArrayList();
             
             TextBlock tbStatus = new TextBlock();
-            tbStatus.Text = "Status";
-            tbStatus.FontSize = 30;
-            //ib.AddTextBlock(tbStatus);
-            al.Add(tbStatus);
-            TextBlock tbRecordingIn = new TextBlock();
-            tbRecordingIn.Text = "Nagrywanie za: ";
-            //ib.AddTextBlock(tbRecordingIn);
-            al.Add(tbRecordingIn);
+            //tbStatus.Text = "Status";
+            //tbStatus.FontSize = 30;
+            //al.Add(tbStatus);
+            //TextBlock tbRecordingIn = new TextBlock();
+            //tbRecordingIn.Text = "Nagrywanie za: ";
+            //al.Add(tbRecordingIn);
             TextBlock tbRecognizedGesture = new TextBlock();
-            tbRecognizedGesture.Text = "Rozpoznany gest";
+            Binding recognizedGestureBinding = new Binding("Info_Recognized_Gesture");
+            tbRecognizedGesture.SetBinding(TextBlock.TextProperty, recognizedGestureBinding);
             tbRecognizedGesture.FontSize = 15;
             //ib.AddTextBlock(tbRecognizedGesture);
             al.Add(tbRecognizedGesture);
@@ -284,6 +283,7 @@ namespace WPFApp
             //tbCurrentInfo.Text = "Tekst informacyjny";
             tbCurrentInfo.FontSize = 20;
             al.Add(tbCurrentInfo);
+
             PositionLeft = mainCanvas.ActualWidth/2;
             PositionTop = mainCanvas.ActualHeight/2;
             tbs = (TextBlock[])al.ToArray(typeof(TextBlock));
@@ -309,7 +309,7 @@ namespace WPFApp
             cmtsHashMain.Add(cmt.Name, gem);
             this.mainCanvas.Children.Add(cmt);
 
-            cmt = CreateCircularMinuteTimer(FrameworkConstants.CMT_STATISTICS, new Binding("Statistics"), width, height, RightBottomPoints, Commands.LOAD_MENU_COMMAND);
+            cmt = CreateCircularMinuteTimer(FrameworkConstants.CMT_EXIT, new Binding("Exit"), width, height, RightBottomPoints, Commands.LOAD_MENU_COMMAND);
             gem = graphicalEffects.GenerateGraphicalEffectsMetadata(cmt);
             cmtsHashMain.Add(cmt.Name, gem);
             this.mainCanvas.Children.Add(cmt);

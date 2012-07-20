@@ -1,0 +1,286 @@
+﻿###############
+Application started
+###############
+Measuring started
+Learning network
+Recognition time: 651
+Measuring started
+###############
+Application started
+###############
+Measuring started
+Learning network
+Recognition time: 865
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 2,04310765863107E-05
+Name: Kozakiewicz Value: 0,000513305343914058
+Name: Modlitwa Value: 0,997451034454656
+Name: Kula Value: 0,0018340777800487
+Recognized gesture: Modlitwa
+Recognition time: 2
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 8,38710006192972E-09
+Name: Kozakiewicz Value: 0,999662111493062
+Name: Modlitwa Value: 0,000358660051130248
+Name: Kula Value: 5,0775553214775E-13
+Recognized gesture: Kozakiewicz
+Recognition time: 1
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 0,997440674299088
+Name: Kozakiewicz Value: 1,3085359610157E-12
+Name: Modlitwa Value: 3,84681655590149E-09
+Name: Kula Value: 0,00376467835633783
+Recognized gesture: Ręce szeroko
+Recognition time: 1
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 0,00489582438420307
+Name: Kozakiewicz Value: 2,01026397732156E-09
+Name: Modlitwa Value: 0,000526149804899401
+Name: Kula Value: 0,998769884853334
+Recognized gesture: Kula
+Recognition time: 1
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 9,73422041232306E-06
+Name: Kozakiewicz Value: 0,00209339900780578
+Name: Modlitwa Value: 0,994527754996476
+Name: Kula Value: 0,000282896914634582
+Recognized gesture: Modlitwa
+Recognition time: 1
+Measuring started
+Measuring started
+Performing recognition
+Measuring started
+Recognition values
+Name: Ręce szeroko Value: 1,07076212810238E-08
+Name: Kozakiewicz Value: 0,99912720445394
+Name: Modlitwa Value: 0,00108656223748605
+Name: Kula Value: 1,82170367973588E-12
+Recognized gesture: Kozakiewicz
+Recognition time: 1
+Measuring started
+Saving to database
+Measuring started
+Recognition time: 543
+Measuring started
+Measuring started
+Learning network
+Recognition time: 715
+Measuring started
+###############
+Application started
+###############
+Measuring started
+Learning network
+Recognition time: 465
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000154085877450369
+Name: Kozakiewicz Value: 2,3266353092016E-06
+Name: Modlitwa Value: 2,40371116132608E-06
+Name: Kula Value: 0,203315760900705
+Recognition time: 157
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 6,41308396099465E-05
+Name: Kozakiewicz Value: 1,7585288319068E-05
+Name: Modlitwa Value: 1,60298353741907E-06
+Name: Kula Value: 0,010576442950948
+Recognition time: 100
+Saving to database
+Measuring started
+Recognition time: 408
+Measuring started
+Learning network
+Recognition time: 288
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 6,45927529011882E-05
+Name: Kozakiewicz Value: 0,000247908095530272
+Name: Modlitwa Value: 0,997674566214155
+Name: Kula Value: 0,00148378270351474
+Recognized gesture: Modlitwa
+Recognition time: 184
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,997264712111749
+Name: Kozakiewicz Value: 1,80844606475091E-17
+Name: Modlitwa Value: 4,83662677035623E-06
+Name: Kula Value: 0,00270820196724612
+Recognized gesture: Ręce szeroko
+Recognition time: 103
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00180734698809978
+Name: Kozakiewicz Value: 7,38407037124929E-14
+Name: Modlitwa Value: 0,0048919227870733
+Name: Kula Value: 0,996294451577561
+Recognized gesture: Kula
+Recognition time: 423
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 1,77276231748116E-07
+Name: Kozakiewicz Value: 0,994340671113765
+Name: Modlitwa Value: 0,00427860950550656
+Name: Kula Value: 9,20063575448551E-08
+Recognized gesture: Kozakiewicz
+Recognition time: 155
+Saving to database
+Measuring started
+Recognition time: 455
+Measuring started
+Learning network
+Recognition time: 698
+###############
+Application started
+###############
+Measuring started
+Learning network
+Time: 921
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000170275983046773
+Name: Kozakiewicz Value: 0,000292309750055359
+Name: Modlitwa Value: 0,855543359865169
+Name: Kula Value: 0,189566141914999
+Recognized gesture: Modlitwa
+Time: 277
+
+Saving to database
+Measuring started
+Time: 418
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Time: 414
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 8,06658877026823E-05
+Name: Kozakiewicz Value: 0,000800157955065451
+Name: Modlitwa Value: 0,998291203517786
+Name: Kula Value: 0,0031522660199093
+Recognized gesture: Modlitwa
+Time: 587
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 8,06658877026823E-05
+Name: Kozakiewicz Value: 0,000800157955065451
+Name: Modlitwa Value: 0,998291203517786
+Name: Kula Value: 0,0031522660199093
+Recognized gesture: Modlitwa
+Time: 156
+
+Saving to database
+Measuring started
+Time: 486
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Measuring time: 611
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000141428645685664
+Name: Kozakiewicz Value: 9,60387575284581E-05
+Name: Modlitwa Value: 0,997363024452875
+Name: Kula Value: 0,0041105047608788
+Recognized gesture: Modlitwa
+Measuring time: 59
+
+Saving to database
+Measuring started
+Measuring time: 518
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Measuring time: 425
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 1,84644962383296E-07
+Name: Kozakiewicz Value: 5,86122323304667E-05
+Name: Modlitwa Value: 0,999257708988575
+Name: Kula Value: 0,00176046407233872
+Recognized gesture: Modlitwa
+Measuring time: 62
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00176324220573349
+Name: Kozakiewicz Value: 7,11379292905571E-08
+Name: Modlitwa Value: 0,0039637693844869
+Name: Kula Value: 0,995843051799123
+Recognized gesture: Kula
+Measuring time: 67
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,997049019055228
+Name: Kozakiewicz Value: 1,64259574623957E-08
+Name: Modlitwa Value: 7,49765411357233E-07
+Name: Kula Value: 0,00316381910749188
+Recognized gesture: Ręce szeroko
+Measuring time: 95
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 1,22281839625696E-08
+Name: Kozakiewicz Value: 0,996223262995941
+Name: Modlitwa Value: 0,00426598780933889
+Name: Kula Value: 2,85788118380614E-08
+Recognized gesture: Kozakiewicz
+Measuring time: 451
+
+Saving to database
+Measuring started
+Measuring time: 421
+
+Measuring started
+Learning network
+Measuring time: 364
+

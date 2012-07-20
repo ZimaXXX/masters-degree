@@ -60,13 +60,62 @@ namespace WPFApp
         MAIN_PAGE,
         CONFIGURATION_PAGE,
         GESTURES_PAGE,
-        STATISTICS_PAGE,
+        //STATISTICS_PAGE,
         LEARNING_PAGE,
         NO_PAGE
     }
     
     public class FrameworkConstants : INotifyPropertyChanged
-    {     
+    {
+        public void StartMeasuring()
+        {
+            StartTime = DateTime.Now;
+            System.IO.File.AppendAllText(pathToFile, "Measuring started\n");
+        }
+
+        public void EndMeasuring()
+        {
+            //StartTime = new DateTime();
+            //if(StartTime.M
+            DifferenceTime = DateTime.Now - StartTime;
+            System.IO.File.AppendAllText(pathToFile, "Measuring time: " + TimeLapsed + "\n\n");
+            StartTime = new DateTime();
+        }
+
+        public void AppendToFile(String text)
+        {
+            System.IO.File.AppendAllText(pathToFile, text);
+        }
+
+        public string pathToFile = @"C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\recognition.txt";
+        private DateTime startTime;
+        private DateTime StartTime 
+        {
+            get
+            {
+                return startTime;
+            }
+            set
+            {
+                startTime = value;
+                
+            }
+        }
+        private TimeSpan differenceTime;
+        public TimeSpan DifferenceTime 
+        {
+            get
+            {
+                return differenceTime;
+            }
+            set
+            {
+                differenceTime = value;
+                TimeLapsed = differenceTime.Milliseconds.ToString();
+                NotifyPropertyChanged("TimeLapsed");
+            }
+        }
+
         public LinkedList<int> HiddenNeuronsNumber = null;
         public LinkedList<int> EpochsNumber = null;
         public LinkedList<double> Momentums = null;
@@ -93,7 +142,7 @@ namespace WPFApp
         public static readonly string CMT_GESTURES = "cmtGestures";
         public static readonly string CMT_LEARNING = "cmtLearning";
         public static readonly string CMT_CONFIGURATION = "cmtConfiguration";
-        public static readonly string CMT_STATISTICS = "cmtStatistics";
+        public static readonly string CMT_EXIT = "cmtExit";
         public static readonly string CMT_TEST = "cmtTest";
         
         //Configuration
@@ -149,11 +198,11 @@ namespace WPFApp
                             CurrentPageCaption = GesturesPageCaption;
                             break;
                         }
-                    case (Pages.STATISTICS_PAGE):
-                        {
-                            CurrentPageCaption = StatisticsPageCaption;
-                            break;
-                        }
+                    //case (Pages.STATISTICS_PAGE):
+                    //    {
+                    //        CurrentPageCaption = StatisticsPageCaption;
+                    //        break;
+                    //    }
                     case (Pages.LEARNING_PAGE):
                         {
                             CurrentPageCaption = LearningPageCaption;
@@ -178,11 +227,14 @@ namespace WPFApp
 
         public bool BackgroundRecognition { get; set; }
 
+        //Time lapsed (for tests)
+        public string TimeLapsed { get; set; }
+
         //Main menu CMTS
         public string Gestures { get; set; }
         public string Configuration { get; set; }
         public string Learning { get; set; }
-        public string Statistics { get; set; }
+        public string Exit { get; set; }
         public string Test { get; set; }
 
         public string NoName { get; set; }
@@ -207,7 +259,7 @@ namespace WPFApp
         public string MainPageCaption { get; set; }
         public string ConfigurationPageCaption { get; set; }
         public string LearningPageCaption { get; set; }
-        public string StatisticsPageCaption { get; set; }
+        //public string StatisticsPageCaption { get; set; }
         public string GesturesPageCaption { get; set; }
         public string NoPageCaption { get; set; }
         public string CurrentPageCaption { get; set; }
@@ -304,6 +356,8 @@ namespace WPFApp
         //public string Gestures_Recording { get; set; }
 
         //Informations
+        public string Info_Recognized_Gesture { get; set; }
+        public string Info_CannotDecide { get; set; }
         public string Info_Information { get; set; }
         public string Info_GestureSaved { get; set; }
         public string Info_GestureAlreadySaved { get; set; }
@@ -451,7 +505,7 @@ namespace WPFApp
             NotifyPropertyChanged("Gestures");
             NotifyPropertyChanged("Configuration");
             NotifyPropertyChanged("Learning");
-            NotifyPropertyChanged("Statistics");
+            NotifyPropertyChanged("Exit");
             NotifyPropertyChanged("Test");
             NotifyPropertyChanged("NoName");
             NotifyPropertyChanged("NoData");
@@ -459,7 +513,9 @@ namespace WPFApp
             NotifyPropertyChanged("ConfigurationPageCaption");
             NotifyPropertyChanged("LearningPageCaption");
             NotifyPropertyChanged("GesturesPageCaption");
-            NotifyPropertyChanged("StatisticsPageCaption");
+            NotifyPropertyChanged("Info_Recognized_Gesture");
+            //NotifyPropertyChanged("StatisticsPageCaption");
+            NotifyPropertyChanged("Info_CannotDecide");
             NotifyPropertyChanged("Configuration_Language");
             NotifyPropertyChanged("ApplyChanges");
             NotifyPropertyChanged("Learning_Hidden_Neurons");
@@ -505,17 +561,17 @@ namespace WPFApp
                     Gestures = "Gesty";
                     Configuration = "Konfiguracja";
                     Learning = "Nauka";
-                    Statistics = "Statystyki";
+                    Exit = "Wyjdź";
 
                     Test = "Główne menu";
                     NoName = "Brak nazwy";
                     NoData = "Brak danych";
 
-                    MainPageCaption = "Strona główna";
+                    MainPageCaption = "Ekran główny";
                     ConfigurationPageCaption = "Konfiguracja";
                     LearningPageCaption = "Nauka";
                     GesturesPageCaption = "Gesty";
-                    StatisticsPageCaption = "Statystyki";
+                    //StatisticsPageCaption = "Statystyki";
 
                     Configuration_Language = "Język";
                     ApplyChanges = "Zastosuj";
@@ -523,8 +579,8 @@ namespace WPFApp
 
                     Learning_Epochs = "Epoki";
                     Learning_Hidden_Neurons = "Ukryte neurony";
-                    Learning_Learn_Rate = "Szybkość uczenia";
-                    Learning_Momentum = "Momentum";
+                    Learning_Learn_Rate = "Współczynnik uczenia";
+                    Learning_Momentum = "Bezwładność";
                     Learning_More = "Więcej";
                     Learning_Learn = "Naucz sieć";
                     Learning_Learning_Base = "Baza gestów";
@@ -541,6 +597,8 @@ namespace WPFApp
                     GesturesStatus_Gesture = "Brak gestu";
                     CurrentInformation = "Brak informacji";
 
+                    Info_CannotDecide = "Gest nierozpoznany";
+                    Info_Recognized_Gesture = "Rozpoznany gest";
                     Info_Information = "Informacja:";
                     Info_DatabaseUpdated = "Sieć zapisano pomyślnie";
                     Info_GestureAlreadySaved = "Zatwierdzono już ten gest!";
@@ -556,17 +614,17 @@ namespace WPFApp
                     Gestures = "Gestures";
                     Configuration = "Configuration";
                     Learning = "Learning";
-                    Statistics = "Statistics";
+                    Exit = "Exit program";
 
                     Test = "Main menu";
                     NoName = "No name";
                     NoData = "No data";
 
-                    MainPageCaption = "Main page";
+                    MainPageCaption = "Main screen";
                     ConfigurationPageCaption = "Configuration";
                     LearningPageCaption = "Learning";
                     GesturesPageCaption = "Gestures";
-                    StatisticsPageCaption = "Statistics";
+                    //StatisticsPageCaption = "Statistics";
 
                     Configuration_Language = "Language";
                     ApplyChanges = "Apply";
@@ -592,6 +650,8 @@ namespace WPFApp
                     GesturesStatus_Gesture = "No gesture";
                     CurrentInformation = "No information";
 
+                    Info_CannotDecide = "Not recognized";
+                    Info_Recognized_Gesture = "Recognized gesture";
                     Info_Information = "Information:";
                     Info_DatabaseUpdated = "Network saved succesfully";
                     Info_GestureAlreadySaved = "This gesture was already confirmed!";
