@@ -1,0 +1,104 @@
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 576
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 805
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,829234431729321
+Name: Rêka po œrodku Value: 0,811145245360174
+Name: Rêka z ty³u Value: 0,0444042014978954
+Measuring time: 71
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,836829762724382
+Name: Rêka po œrodku Value: 0,810570382925909
+Name: Rêka z ty³u Value: 0,0473055622183471
+Measuring time: 77
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,832025337430561
+Name: Rêka po œrodku Value: 0,810652451593112
+Name: Rêka z ty³u Value: 0,0436425924110412
+Measuring time: 49
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,837197215939884
+Name: Rêka po œrodku Value: 0,814374985335317
+Name: Rêka z ty³u Value: 0,0460755735159343
+Measuring time: 82
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 943
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,103237255024471
+Name: Rêka po œrodku Value: 0,659316752328033
+Name: Rêka z ty³u Value: 0,993379257685554
+Recognized gesture: Rêka z ty³u
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,108635050213582
+Name: Rêka po œrodku Value: 0,657833148112856
+Name: Rêka z ty³u Value: 0,99353320469943
+Recognized gesture: Rêka z ty³u
+Measuring time: 87
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,100368823419585
+Name: Rêka po œrodku Value: 0,643907766043258
+Name: Rêka z ty³u Value: 0,99324934989399
+Recognized gesture: Rêka z ty³u
+Measuring time: 60
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,108921545480583
+Name: Rêka po œrodku Value: 0,665415835611817
+Name: Rêka z ty³u Value: 0,993453662517631
+Recognized gesture: Rêka z ty³u
+Measuring time: 88
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,107593968575684
+Name: Rêka po œrodku Value: 0,654647196583595
+Name: Rêka z ty³u Value: 0,993525534753581
+Recognized gesture: Rêka z ty³u
+Measuring time: 48
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka z przodu Value: 0,0969655210477472
+Name: Rêka po œrodku Value: 0,645842963017437
+Name: Rêka z ty³u Value: 0,993360914568368
+Recognized gesture: Rêka z ty³u
+Measuring time: 44
+

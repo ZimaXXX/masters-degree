@@ -417,8 +417,10 @@ namespace WPFApp
                     if (isStatic)
                     {
                         timer.Stop();
-                        for (int i = 0; i < numberOfFrames - 1; ++i)
-                            capturedGesture.RemoveAt(capturedGesture.Count - 1);
+                        double[] capturedFrame = capturedGesture.Last();
+                        capturedGesture.Clear();
+                        //for (int i = 0; i < numberOfFrames - 1; ++i)
+                        //    capturedGesture.RemoveAt(capturedGesture.Count - 1);
 
                         //ArrayList altd = new ArrayList();
                         //altd.Add(new LearnElement(capturedGesture[capturedGesture.Count - 1], new double[]{0,0,0,1}));
@@ -428,7 +430,7 @@ namespace WPFApp
                         //Console.WriteLine(xml);
 
 
-                        string gesture = RecognizeGesture();
+                        string gesture = RecognizeGesture(capturedFrame);
 
                         mw.frameworkConstants.GesturesStatus_Gesture = gesture;
                         mw.frameworkConstants.NotifyPropertyChanged("GesturesStatus_Gesture");
@@ -455,11 +457,12 @@ namespace WPFApp
 
         
 
-        private string RecognizeGesture()
+        private string RecognizeGesture(double[] capturedFrame)
         {
             //mw.frameworkConstants.StartMeasuring();
             //Point lastPoint = capturedGesture.Last<Point>();
-            double[] lastInput = capturedGesture[capturedGesture.Count - 1];
+            //double[] lastInput = capturedGesture[capturedGesture.Count - 1];
+            double[] lastInput = capturedFrame;
             
             //double[] inputArray = new double[] { lastPoint.X, lastPoint.Y };
             CurrentInput = lastInput;

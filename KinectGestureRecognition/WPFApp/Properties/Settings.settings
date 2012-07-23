@@ -44,5 +44,8 @@
     <Setting Name="ExportPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="LogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Zima\masters-degree\KinectGestureRecognition\recognition.txt</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

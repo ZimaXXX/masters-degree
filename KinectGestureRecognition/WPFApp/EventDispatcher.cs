@@ -39,7 +39,6 @@ namespace WPFApp
             string caption = args.caption;
             Commands command = args.command;
             double animationTime = args.animationTime;
-
             //MessageBox.Show("Caption: " + args.caption + ", Command: " + args.command);
 
             switch (command)
@@ -129,6 +128,8 @@ namespace WPFApp
                     
                     if (cmt.Name.Equals(FrameworkConstants.CMT_GESTURES))
                     {
+                        mw.frameworkConstants.GesturesStatus_Gesture = mw.frameworkConstants.GesturesStatus_NoGesture;
+                        mw.frameworkConstants.NotifyPropertyChanged("GesturesStatus_Gesture");
                         mw.frameworkConstants.BackgroundRecognition = false;
                         mw.frameworkConstants.CurrentPage = Pages.GESTURES_PAGE;
                         ((InfoBoard)mw.ibMap[FrameworkConstants.IB_GESTURES]).ShowInfoBoard();
@@ -329,6 +330,8 @@ namespace WPFApp
                 {
                     if (cmt.Name.Equals(FrameworkConstants.CMT_GESTURES_RECORDING))
                     {
+                        mw.frameworkConstants.GesturesStatus_Gesture = mw.frameworkConstants.GesturesStatus_NoGesture;
+                        mw.frameworkConstants.NotifyPropertyChanged("GesturesStatus_Gesture");
                         mw.frameworkConstants.StartMeasuring();
                         mw.nnf.CurrentInput = null;
                         mw.nnf.CurrentOutput = null;

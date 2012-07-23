@@ -1,0 +1,17 @@
+Mo¿e zrobiæ scenariusz w którym rozpoznawany jest gest po³o¿enia rêki na czole nie wa¿ne która rêk¹?
+
+Scenariusz 1: Rozró¿nianie wielu zró¿nicowanych gestów
+
+Gesty:
+1: Rêce szeroko
+2: Rêce do modlitwy
+3: Rêce jak si³acz
+4: Rêce do przodu
+5: Rêce na czole
+6: Rêce na biodrach
+
+Plan eksperymentu:
+Zbudowaæ sieæ z powy¿szymi gestami dla 2 i 3 wymiarów
+Za³adowaæ sieæ dla 2 wymiarów
+Nauczyæ powy¿szych gestów (po jednym przyk³adzie)
+Sprawdziæ czy gesty dzialaja

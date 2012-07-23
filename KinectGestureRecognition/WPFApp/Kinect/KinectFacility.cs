@@ -182,16 +182,16 @@ namespace WPFApp.Kinect
                                             timerJointID = JointID.Count;
                                             cmt.IsSelected = false;
                                         }
-                                        else
-                                        {
-                                            //Console.WriteLine(cmt.IsInBounds(rhp).ToString() + " " + cmt.IsSelected.ToString());
-                                        }
+                                        //else
+                                        //{
+                                        //    //Console.WriteLine(cmt.IsInBounds(rhp).ToString() + " " + cmt.IsSelected.ToString());
+                                        //}
                                     }
                                 }
                                 break;
                             case JointID.HandLeft:
                                 lhp = getDisplayPosition(joint);
-                                foreach (CircularMinuteTimer cmt in mw.cmtsVisibleMap.Values)
+                                foreach (CircularMinuteTimer cmt in mw.cmtsMap.Values)
                                 {
                                     if (timerJointID.Equals(JointID.Count) || timerJointID.Equals(JointID.HandLeft))
                                     {

@@ -44,3 +44,27 @@ C:\Users\Zima\Downloads\WPFApp (3)\WPFApp\WPFApp\obj\x86\Release\WPFApp.g.resour
 C:\Users\Zima\Downloads\WPFApp (3)\WPFApp\WPFApp\obj\x86\Release\WPFApp.Properties.Resources.resources
 C:\Users\Zima\Downloads\WPFApp (3)\WPFApp\WPFApp\obj\x86\Release\GenerateResource.read.1.tlog
 C:\Users\Zima\Downloads\WPFApp (3)\WPFApp\WPFApp\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\bin\Release\WPFApp.exe.config
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp.exe
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp.pdb
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\bin\Release\WPFApp.exe
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\bin\Release\WPFApp.pdb
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\bin\Release\HSynapse.dll
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\bin\Release\HSynapse.pdb
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\App.baml
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\CircularMinuteTimer.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\InfoBoard.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\MainWindow.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\App.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp_Content.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp_MarkupCompile.cache
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp_MarkupCompile.lref
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\CircularMinuteTimer.baml
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\InfoBoard.baml
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\MainWindow.baml
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp.g.resources
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp.Properties.Resources.resources
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\GenerateResource.write.1.tlog

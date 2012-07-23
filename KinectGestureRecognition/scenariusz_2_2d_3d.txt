@@ -1,0 +1,545 @@
+﻿###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 74
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 325
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,942686085792036
+Name: Ręce do modlitwy Value: 0,812575754415452
+Name: Ręce jak siłacz Value: 0,365509816665908
+Name: Ręce do przodu Value: 0,595067910488266
+Name: Ręce na czole Value: 0,562293267058127
+Name: Ręce na biodrach Value: 0,427403559217938
+Recognized gesture: Ręce szeroko
+Measuring time: 100
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,948767997647325
+Name: Ręce do modlitwy Value: 0,841869064527092
+Name: Ręce jak siłacz Value: 0,426936801264202
+Name: Ręce do przodu Value: 0,493110896057709
+Name: Ręce na czole Value: 0,592643218200037
+Name: Ręce na biodrach Value: 0,557622973240909
+Recognized gesture: Ręce szeroko
+Measuring time: 85
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,941751609237126
+Name: Ręce do modlitwy Value: 0,816756858956536
+Name: Ręce jak siłacz Value: 0,390474615239163
+Name: Ręce do przodu Value: 0,549773798543797
+Name: Ręce na czole Value: 0,548448068248561
+Name: Ręce na biodrach Value: 0,51684002059279
+Recognized gesture: Ręce szeroko
+Measuring time: 123
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,946246425683073
+Name: Ręce do modlitwy Value: 0,829654884546992
+Name: Ręce jak siłacz Value: 0,407619449942862
+Name: Ręce do przodu Value: 0,507312477817943
+Name: Ręce na czole Value: 0,592185128445002
+Name: Ręce na biodrach Value: 0,490438085535859
+Recognized gesture: Ręce szeroko
+Measuring time: 86
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,941288032085987
+Name: Ręce do modlitwy Value: 0,800296036986637
+Name: Ręce jak siłacz Value: 0,369679022619893
+Name: Ręce do przodu Value: 0,478870552997082
+Name: Ręce na czole Value: 0,579199245842561
+Name: Ręce na biodrach Value: 0,480317383564844
+Recognized gesture: Ręce szeroko
+Measuring time: 93
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,963079187071575
+Name: Ręce do modlitwy Value: 0,888929552978421
+Name: Ręce jak siłacz Value: 0,421239027722948
+Name: Ręce do przodu Value: 0,541105616316754
+Name: Ręce na czole Value: 0,677131050769049
+Name: Ręce na biodrach Value: 0,3912201244984
+Recognized gesture: Ręce szeroko
+Measuring time: 71
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,942105794146161
+Name: Ręce do modlitwy Value: 0,801292661027257
+Name: Ręce jak siłacz Value: 0,366136727115706
+Name: Ręce do przodu Value: 0,47456430566988
+Name: Ręce na czole Value: 0,580656331613345
+Name: Ręce na biodrach Value: 0,473713446484946
+Recognized gesture: Ręce szeroko
+Measuring time: 85
+
+Saving to database
+Measuring started
+Measuring time: 553
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 432
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,990702972654792
+Name: Ręce do modlitwy Value: 7,52648509685715E-09
+Name: Ręce jak siłacz Value: 0,0113492416951531
+Name: Ręce do przodu Value: 0,0577823730428453
+Name: Ręce na czole Value: 2,824025161829E-08
+Name: Ręce na biodrach Value: 0,000845131713677011
+Recognized gesture: Ręce szeroko
+Measuring time: 59
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,989957450380414
+Name: Ręce do modlitwy Value: 5,32089651763759E-09
+Name: Ręce jak siłacz Value: 0,0157509204093854
+Name: Ręce do przodu Value: 0,190381359100798
+Name: Ręce na czole Value: 9,03861743049138E-08
+Name: Ręce na biodrach Value: 0,000266301855769874
+Recognized gesture: Ręce szeroko
+Measuring time: 61
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 1,85941168758843E-07
+Name: Ręce do modlitwy Value: 0,989517508385576
+Name: Ręce jak siłacz Value: 0,018665708205123
+Name: Ręce do przodu Value: 0,000230913910676948
+Name: Ręce na czole Value: 0,000631121187948497
+Name: Ręce na biodrach Value: 0,028018738396334
+Recognized gesture: Ręce do modlitwy
+Measuring time: 78
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 2,84754139810097E-07
+Name: Ręce do modlitwy Value: 0,989262178142497
+Name: Ręce jak siłacz Value: 0,0768266555716124
+Name: Ręce do przodu Value: 0,000109167520020142
+Name: Ręce na czole Value: 0,000289752176376434
+Name: Ręce na biodrach Value: 0,0582003923157649
+Recognized gesture: Ręce do modlitwy
+Measuring time: 74
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00432811758534915
+Name: Ręce do modlitwy Value: 0,00366190022628453
+Name: Ręce jak siłacz Value: 0,989211317417569
+Name: Ręce do przodu Value: 0,0156603913455184
+Name: Ręce na czole Value: 0,000147175007875188
+Name: Ręce na biodrach Value: 0,000680119663722969
+Recognized gesture: Ręce jak siłacz
+Measuring time: 61
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00149706534256421
+Name: Ręce do modlitwy Value: 0,0186461191318655
+Name: Ręce jak siłacz Value: 0,97681163626589
+Name: Ręce do przodu Value: 0,00432832015835806
+Name: Ręce na czole Value: 3,32025064849861E-05
+Name: Ręce na biodrach Value: 0,00531541595921274
+Recognized gesture: Ręce jak siłacz
+Measuring time: 73
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000165084626241088
+Name: Ręce do modlitwy Value: 0,000617719602503476
+Name: Ręce jak siłacz Value: 0,00037082003112006
+Name: Ręce do przodu Value: 0,92485173465035
+Name: Ręce na czole Value: 0,276652646207939
+Name: Ręce na biodrach Value: 1,18044242912893E-06
+Recognized gesture: Ręce do przodu
+Measuring time: 79
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000250457278487545
+Name: Ręce do modlitwy Value: 0,0003032797780387
+Name: Ręce jak siłacz Value: 0,000122123208369507
+Name: Ręce do przodu Value: 0,958431121821643
+Name: Ręce na czole Value: 0,196024607179356
+Name: Ręce na biodrach Value: 1,08772638022624E-06
+Recognized gesture: Ręce do przodu
+Measuring time: 83
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 7,72903371841671E-06
+Name: Ręce do modlitwy Value: 0,0167763072296593
+Name: Ręce jak siłacz Value: 0,000438089317344432
+Name: Ręce do przodu Value: 0,0076205273125867
+Name: Ręce na czole Value: 0,907041825813993
+Name: Ręce na biodrach Value: 2,0821373228092E-06
+Recognized gesture: Ręce na czole
+Measuring time: 88
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 2,45965424670296E-06
+Name: Ręce do modlitwy Value: 0,031198438078638
+Name: Ręce jak siłacz Value: 0,000126852171783711
+Name: Ręce do przodu Value: 0,00260424456001534
+Name: Ręce na czole Value: 0,970478240236876
+Name: Ręce na biodrach Value: 1,53407351721624E-06
+Recognized gesture: Ręce na czole
+Measuring time: 97
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00553358564893252
+Name: Ręce do modlitwy Value: 0,00562034556082306
+Name: Ręce jak siłacz Value: 0,00542526580278704
+Name: Ręce do przodu Value: 4,8602070395607E-06
+Name: Ręce na czole Value: 5,04903033089474E-11
+Name: Ręce na biodrach Value: 0,99287867675294
+Recognized gesture: Ręce na biodrach
+Measuring time: 102
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00442677925761799
+Name: Ręce do modlitwy Value: 0,00637552224289451
+Name: Ręce jak siłacz Value: 0,00481354196195836
+Name: Ręce do przodu Value: 6,86618850416446E-06
+Name: Ręce na czole Value: 6,62721678212258E-11
+Name: Ręce na biodrach Value: 0,992430885035104
+Recognized gesture: Ręce na biodrach
+Measuring time: 63
+
+Saving to database
+Measuring started
+Measuring time: 746
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 141
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,537521602264571
+Name: Ręce do modlitwy Value: 0,275629954341535
+Name: Ręce jak siłacz Value: 0,942812218699245
+Name: Ręce do przodu Value: 0,900284126136896
+Name: Ręce na czole Value: 0,108191777365703
+Name: Ręce na biodrach Value: 0,245796136697075
+Recognized gesture: Ręce jak siłacz
+Measuring time: 100
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,509537638821756
+Name: Ręce do modlitwy Value: 0,325042301697177
+Name: Ręce jak siłacz Value: 0,961619855964941
+Name: Ręce do przodu Value: 0,904689112524744
+Name: Ręce na czole Value: 0,103468348205207
+Name: Ręce na biodrach Value: 0,210203092816386
+Recognized gesture: Ręce jak siłacz
+Measuring time: 58
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,506405744028978
+Name: Ręce do modlitwy Value: 0,307910185922902
+Name: Ręce jak siłacz Value: 0,950433040746426
+Name: Ręce do przodu Value: 0,903919981205253
+Name: Ręce na czole Value: 0,10705187542007
+Name: Ręce na biodrach Value: 0,217933948858903
+Recognized gesture: Ręce jak siłacz
+Measuring time: 83
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,463350107757649
+Name: Ręce do modlitwy Value: 0,356325771444278
+Name: Ręce jak siłacz Value: 0,977632436483152
+Name: Ręce do przodu Value: 0,928537415468932
+Name: Ręce na czole Value: 0,103252613016868
+Name: Ręce na biodrach Value: 0,15673080816845
+Recognized gesture: Ręce jak siłacz
+Measuring time: 79
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,506598722952616
+Name: Ręce do modlitwy Value: 0,303866244099503
+Name: Ręce jak siłacz Value: 0,968015443014924
+Name: Ręce do przodu Value: 0,904123781533184
+Name: Ręce na czole Value: 0,111725049857703
+Name: Ręce na biodrach Value: 0,16657676999154
+Recognized gesture: Ręce jak siłacz
+Measuring time: 83
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,555089050633189
+Name: Ręce do modlitwy Value: 0,282425500389313
+Name: Ręce jak siłacz Value: 0,942991031687017
+Name: Ręce do przodu Value: 0,889853659750483
+Name: Ręce na czole Value: 0,105219932588308
+Name: Ręce na biodrach Value: 0,25781791806554
+Recognized gesture: Ręce jak siłacz
+Measuring time: 84
+
+Saving to database
+Measuring started
+Measuring time: 635
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 574
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 720
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 520
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 706
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 767
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,988300901945999
+Name: Ręce do modlitwy Value: 3,68390022933416E-07
+Name: Ręce jak siłacz Value: 0,0287174181629077
+Name: Ręce do przodu Value: 0,0089426024852988
+Name: Ręce na czole Value: 7,18003054502713E-05
+Name: Ręce na biodrach Value: 0,000271525728626373
+Recognized gesture: Ręce szeroko
+Measuring time: 70
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,987900304906352
+Name: Ręce do modlitwy Value: 3,76288565610308E-07
+Name: Ręce jak siłacz Value: 0,0287773500365203
+Name: Ręce do przodu Value: 0,00661275659806677
+Name: Ręce na czole Value: 8,54774609595703E-05
+Name: Ręce na biodrach Value: 0,000362179735565757
+Recognized gesture: Ręce szeroko
+Measuring time: 103
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 4,11772076310993E-07
+Name: Ręce do modlitwy Value: 0,995653189130659
+Name: Ręce jak siłacz Value: 0,00106899280005255
+Name: Ręce do przodu Value: 0,000991030725329165
+Name: Ręce na czole Value: 0,00470171588362758
+Name: Ręce na biodrach Value: 0,0938400510461799
+Recognized gesture: Ręce do modlitwy
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 1,25105930435364E-06
+Name: Ręce do modlitwy Value: 0,984500016071536
+Name: Ręce jak siłacz Value: 7,12517586733723E-05
+Name: Ręce do przodu Value: 0,00335602964500515
+Name: Ręce na czole Value: 0,000144223354496415
+Name: Ręce na biodrach Value: 0,441179211608673
+Recognized gesture: Ręce do modlitwy
+Measuring time: 72
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,0191712874105359
+Name: Ręce do modlitwy Value: 0,000184773435070482
+Name: Ręce jak siłacz Value: 0,951313303500801
+Name: Ręce do przodu Value: 0,000184510432505027
+Name: Ręce na czole Value: 0,203924844964028
+Name: Ręce na biodrach Value: 0,000182725449767885
+Recognized gesture: Ręce jak siłacz
+Measuring time: 92
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00660608583251672
+Name: Ręce do modlitwy Value: 0,00307039284881737
+Name: Ręce jak siłacz Value: 0,977657186879985
+Name: Ręce do przodu Value: 0,000673466609535374
+Name: Ręce na czole Value: 0,00558826308142126
+Name: Ręce na biodrach Value: 0,000296030272950374
+Recognized gesture: Ręce jak siłacz
+Measuring time: 69
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00146494491319224
+Name: Ręce do modlitwy Value: 0,00230859090858586
+Name: Ręce jak siłacz Value: 0,000256499248487714
+Name: Ręce do przodu Value: 0,988697757437487
+Name: Ręce na czole Value: 0,011572180307386
+Name: Ręce na biodrach Value: 8,57000875781018E-06
+Recognized gesture: Ręce do przodu
+Measuring time: 104
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,00490866934360232
+Name: Ręce do modlitwy Value: 0,000464651173778814
+Name: Ręce jak siłacz Value: 0,000232676416997021
+Name: Ręce do przodu Value: 0,997152972645786
+Name: Ręce na czole Value: 0,0157328250517257
+Name: Ręce na biodrach Value: 2,64820513765924E-06
+Recognized gesture: Ręce do przodu
+Measuring time: 59
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 5,41506241709576E-05
+Name: Ręce do modlitwy Value: 0,00673762348355382
+Name: Ręce jak siłacz Value: 0,00925548498574631
+Name: Ręce do przodu Value: 0,0025337727817201
+Name: Ręce na czole Value: 0,993874865087496
+Name: Ręce na biodrach Value: 0,000216950633306751
+Recognized gesture: Ręce na czole
+Measuring time: 108
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 2,97827319110592E-05
+Name: Ręce do modlitwy Value: 0,0193113351725839
+Name: Ręce jak siłacz Value: 0,00407086971764699
+Name: Ręce do przodu Value: 0,00890454829888772
+Name: Ręce na czole Value: 0,994018941636132
+Name: Ręce na biodrach Value: 0,000175753228691477
+Recognized gesture: Ręce na czole
+Measuring time: 83
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000749705224550266
+Name: Ręce do modlitwy Value: 0,00877149874070596
+Name: Ręce jak siłacz Value: 0,0023341939846632
+Name: Ręce do przodu Value: 4,51186357571928E-07
+Name: Ręce na czole Value: 0,000494380008033025
+Name: Ręce na biodrach Value: 0,993499560803879
+Recognized gesture: Ręce na biodrach
+Measuring time: 148
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,000920853219689923
+Name: Ręce do modlitwy Value: 0,00855085851613055
+Name: Ręce jak siłacz Value: 0,00348947365676226
+Name: Ręce do przodu Value: 7,27542939619625E-07
+Name: Ręce na czole Value: 0,000331707826874335
+Name: Ręce na biodrach Value: 0,991237360884778
+Recognized gesture: Ręce na biodrach
+Measuring time: 48
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 524
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,981513373855886
+Name: Ręce do modlitwy Value: 4,50052640005792E-07
+Name: Ręce jak siłacz Value: 0,0215157600432315
+Name: Ręce do przodu Value: 0,0134108577955274
+Name: Ręce na czole Value: 6,25662446093984E-06
+Name: Ręce na biodrach Value: 0,0044686098432563
+Recognized gesture: Ręce szeroko
+Measuring time: 62
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręce szeroko Value: 0,987233045577964
+Name: Ręce do modlitwy Value: 2,74314152422642E-07
+Name: Ręce jak siłacz Value: 0,0151737533660789
+Name: Ręce do przodu Value: 0,011402913629137
+Name: Ręce na czole Value: 8,87364025159845E-06
+Name: Ręce na biodrach Value: 0,00362219341219741
+Recognized gesture: Ręce szeroko
+Measuring time: 58
+

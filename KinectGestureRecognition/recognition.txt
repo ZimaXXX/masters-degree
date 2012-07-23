@@ -3,284 +3,657 @@ Application started
 ###############
 Measuring started
 Learning network
-Recognition time: 651
-Measuring started
-###############
-Application started
-###############
+Number of examples: 6
+Measuring time: 815
+
 Measuring started
 Learning network
-Recognition time: 865
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 2,04310765863107E-05
-Name: Kozakiewicz Value: 0,000513305343914058
-Name: Modlitwa Value: 0,997451034454656
-Name: Kula Value: 0,0018340777800487
-Recognized gesture: Modlitwa
-Recognition time: 2
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 8,38710006192972E-09
-Name: Kozakiewicz Value: 0,999662111493062
-Name: Modlitwa Value: 0,000358660051130248
-Name: Kula Value: 5,0775553214775E-13
-Recognized gesture: Kozakiewicz
-Recognition time: 1
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 0,997440674299088
-Name: Kozakiewicz Value: 1,3085359610157E-12
-Name: Modlitwa Value: 3,84681655590149E-09
-Name: Kula Value: 0,00376467835633783
-Recognized gesture: Ręce szeroko
-Recognition time: 1
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 0,00489582438420307
-Name: Kozakiewicz Value: 2,01026397732156E-09
-Name: Modlitwa Value: 0,000526149804899401
-Name: Kula Value: 0,998769884853334
-Recognized gesture: Kula
-Recognition time: 1
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 9,73422041232306E-06
-Name: Kozakiewicz Value: 0,00209339900780578
-Name: Modlitwa Value: 0,994527754996476
-Name: Kula Value: 0,000282896914634582
-Recognized gesture: Modlitwa
-Recognition time: 1
-Measuring started
-Measuring started
-Performing recognition
-Measuring started
-Recognition values
-Name: Ręce szeroko Value: 1,07076212810238E-08
-Name: Kozakiewicz Value: 0,99912720445394
-Name: Modlitwa Value: 0,00108656223748605
-Name: Kula Value: 1,82170367973588E-12
-Recognized gesture: Kozakiewicz
-Recognition time: 1
-Measuring started
-Saving to database
-Measuring started
-Recognition time: 543
-Measuring started
-Measuring started
-Learning network
-Recognition time: 715
-Measuring started
-###############
-Application started
-###############
-Measuring started
-Learning network
-Recognition time: 465
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 0,000154085877450369
-Name: Kozakiewicz Value: 2,3266353092016E-06
-Name: Modlitwa Value: 2,40371116132608E-06
-Name: Kula Value: 0,203315760900705
-Recognition time: 157
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 6,41308396099465E-05
-Name: Kozakiewicz Value: 1,7585288319068E-05
-Name: Modlitwa Value: 1,60298353741907E-06
-Name: Kula Value: 0,010576442950948
-Recognition time: 100
-Saving to database
-Measuring started
-Recognition time: 408
-Measuring started
-Learning network
-Recognition time: 288
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 6,45927529011882E-05
-Name: Kozakiewicz Value: 0,000247908095530272
-Name: Modlitwa Value: 0,997674566214155
-Name: Kula Value: 0,00148378270351474
-Recognized gesture: Modlitwa
-Recognition time: 184
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 0,997264712111749
-Name: Kozakiewicz Value: 1,80844606475091E-17
-Name: Modlitwa Value: 4,83662677035623E-06
-Name: Kula Value: 0,00270820196724612
-Recognized gesture: Ręce szeroko
-Recognition time: 103
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 0,00180734698809978
-Name: Kozakiewicz Value: 7,38407037124929E-14
-Name: Modlitwa Value: 0,0048919227870733
-Name: Kula Value: 0,996294451577561
-Recognized gesture: Kula
-Recognition time: 423
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 1,77276231748116E-07
-Name: Kozakiewicz Value: 0,994340671113765
-Name: Modlitwa Value: 0,00427860950550656
-Name: Kula Value: 9,20063575448551E-08
-Recognized gesture: Kozakiewicz
-Recognition time: 155
-Saving to database
-Measuring started
-Recognition time: 455
-Measuring started
-Learning network
-Recognition time: 698
-###############
-Application started
-###############
-Measuring started
-Learning network
-Time: 921
+Number of examples: 0
+Measuring time: 811
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 0,000170275983046773
-Name: Kozakiewicz Value: 0,000292309750055359
-Name: Modlitwa Value: 0,855543359865169
-Name: Kula Value: 0,189566141914999
-Recognized gesture: Modlitwa
-Time: 277
+Name: Ręka na prawej piersi Value: 0,788033693988442
+Name: Ręka na lewej piersi Value: 0,626997173074471
+Name: Ręka na brzuchu Value: 0,121099465066551
+Measuring time: 115
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,818639669386012
+Name: Ręka na lewej piersi Value: 0,596897527704723
+Name: Ręka na brzuchu Value: 0,118061927160668
+Measuring time: 106
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,812529834587493
+Name: Ręka na lewej piersi Value: 0,633522093690771
+Name: Ręka na brzuchu Value: 0,114733376659662
+Measuring time: 121
 
 Saving to database
 Measuring started
-Time: 418
+Measuring time: 488
 
-###############
-Application started
-###############
 Measuring started
 Learning network
-Time: 414
+Number of examples: 3
+Measuring time: 746
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 8,06658877026823E-05
-Name: Kozakiewicz Value: 0,000800157955065451
-Name: Modlitwa Value: 0,998291203517786
-Name: Kula Value: 0,0031522660199093
-Recognized gesture: Modlitwa
-Time: 587
+Name: Ręka na prawej piersi Value: 0,985812375713196
+Name: Ręka na lewej piersi Value: 0,00124335892435244
+Name: Ręka na brzuchu Value: 0,000868238934570305
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 58
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 8,06658877026823E-05
-Name: Kozakiewicz Value: 0,000800157955065451
-Name: Modlitwa Value: 0,998291203517786
-Name: Kula Value: 0,0031522660199093
-Recognized gesture: Modlitwa
-Time: 156
-
-Saving to database
-Measuring started
-Time: 486
-
-###############
-Application started
-###############
-Measuring started
-Learning network
-Measuring time: 611
-
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 0,000141428645685664
-Name: Kozakiewicz Value: 9,60387575284581E-05
-Name: Modlitwa Value: 0,997363024452875
-Name: Kula Value: 0,0041105047608788
-Recognized gesture: Modlitwa
-Measuring time: 59
-
-Saving to database
-Measuring started
-Measuring time: 518
-
-###############
-Application started
-###############
-Measuring started
-Learning network
-Measuring time: 425
-
-Measuring started
-Performing recognition
-Recognition values
-Name: Ręce szeroko Value: 1,84644962383296E-07
-Name: Kozakiewicz Value: 5,86122323304667E-05
-Name: Modlitwa Value: 0,999257708988575
-Name: Kula Value: 0,00176046407233872
-Recognized gesture: Modlitwa
+Name: Ręka na prawej piersi Value: 0,00790958905896309
+Name: Ręka na lewej piersi Value: 0,884575499647781
+Name: Ręka na brzuchu Value: 0,0335278305818938
+Recognized gesture: Ręka na lewej piersi
 Measuring time: 62
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 0,00176324220573349
-Name: Kozakiewicz Value: 7,11379292905571E-08
-Name: Modlitwa Value: 0,0039637693844869
-Name: Kula Value: 0,995843051799123
-Recognized gesture: Kula
+Name: Ręka na prawej piersi Value: 2,28221757313211E-05
+Name: Ręka na lewej piersi Value: 0,00311189125445577
+Name: Ręka na brzuchu Value: 0,997290612975028
+Recognized gesture: Ręka na brzuchu
+Measuring time: 147
+
+Saving to database
+Measuring started
+Measuring time: 978
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 768
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,137578077900287
+Name: Ręka na lewej piersi Value: 0,986954654887233
+Name: Ręka na brzuchu Value: 0,344345103232843
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 81
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,106382917583839
+Name: Ręka na lewej piersi Value: 0,98610401566024
+Name: Ręka na brzuchu Value: 0,332679385393033
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 66
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,103673547114882
+Name: Ręka na lewej piersi Value: 0,985222678716582
+Name: Ręka na brzuchu Value: 0,314638258220989
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 102
+
+Saving to database
+Measuring started
+Measuring time: 516
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 31
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,972268552639154
+Name: Ręka na lewej piersi Value: 0,0279280398703831
+Name: Ręka na brzuchu Value: 4,73267700645507E-06
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 102
+
+Saving to database
+Measuring started
+Measuring time: 761
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,00842586983325087
+Name: Ręka na lewej piersi Value: 0,978289888326696
+Name: Ręka na brzuchu Value: 0,0114769907091674
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 68
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 3,15294073437821E-07
+Name: Ręka na lewej piersi Value: 0,01841247441231
+Name: Ręka na brzuchu Value: 0,990713205276549
+Recognized gesture: Ręka na brzuchu
+Measuring time: 72
+
+Saving to database
+Measuring started
+Measuring time: 423
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 728
+
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 560
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 87
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,980525855434082
+Name: Ręka na lewej piersi Value: 0,0196960361022213
+Name: Ręka na brzuchu Value: 0,00214628114955247
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 129
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,0339019226727127
+Name: Ręka na lewej piersi Value: 0,989115581465595
+Name: Ręka na brzuchu Value: 0,00148625061920375
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 73
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,000479938105046144
+Name: Ręka na lewej piersi Value: 0,0012826614623281
+Name: Ręka na brzuchu Value: 0,988106826708304
+Recognized gesture: Ręka na brzuchu
+Measuring time: 60
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 262
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,00450378999971358
+Name: Ręka na lewej piersi Value: 0,000552259081547185
+Name: Ręka na brzuchu Value: 0,994514766921317
+Recognized gesture: Ręka na brzuchu
+Measuring time: 118
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,999707155019191
+Name: Ręka na lewej piersi Value: 0,0004929604567575
+Name: Ręka na brzuchu Value: 8,16343315251371E-06
+Recognized gesture: Ręka na prawej piersi
 Measuring time: 67
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 0,997049019055228
-Name: Kozakiewicz Value: 1,64259574623957E-08
-Name: Modlitwa Value: 7,49765411357233E-07
-Name: Kula Value: 0,00316381910749188
-Recognized gesture: Ręce szeroko
+Name: Ręka na prawej piersi Value: 0,306450546741951
+Name: Ręka na lewej piersi Value: 0,93693691018823
+Name: Ręka na brzuchu Value: 4,79154018726124E-05
+Recognized gesture: Ręka na lewej piersi
+Measuring time: 61
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,00472983309603694
+Name: Ręka na lewej piersi Value: 0,0101269490321648
+Name: Ręka na brzuchu Value: 0,91401380870019
+Recognized gesture: Ręka na brzuchu
+Measuring time: 58
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 333
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,998154314446578
+Name: Ręka na lewej piersi Value: 0,00157080825778294
+Name: Ręka na brzuchu Value: 1,44775408249465E-05
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 102
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,979086416293761
+Name: Ręka na lewej piersi Value: 0,0486959653955519
+Name: Ręka na brzuchu Value: 3,10744179965512E-05
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 71
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Ręka na prawej piersi Value: 0,000293323429419364
+Name: Ręka na lewej piersi Value: 0,00690052420646295
+Name: Ręka na brzuchu Value: 0,979934047180248
+Recognized gesture: Ręka na brzuchu
 Measuring time: 95
 
 Measuring started
 Performing recognition
 Recognition values
-Name: Ręce szeroko Value: 1,22281839625696E-08
-Name: Kozakiewicz Value: 0,996223262995941
-Name: Modlitwa Value: 0,00426598780933889
-Name: Kula Value: 2,85788118380614E-08
-Recognized gesture: Kozakiewicz
-Measuring time: 451
+Name: Ręka na prawej piersi Value: 0,906311467520318
+Name: Ręka na lewej piersi Value: 1,71541825333876E-07
+Name: Ręka na brzuchu Value: 0,659890400950943
+Recognized gesture: Ręka na prawej piersi
+Measuring time: 81
 
-Saving to database
+###############
+Application started
+###############
 Measuring started
-Measuring time: 421
+Learning network
+Number of examples: 6
+Measuring time: 587
 
 Measuring started
 Learning network
-Measuring time: 364
+Number of examples: 0
+Measuring time: 224
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0991763763642051
+Name: Dowolna ręka na brzuchu Value: 0,166765171684777
+Name: Skręcający samolot Value: 0,35348402914014
+Measuring time: 116
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,114448656275265
+Name: Dowolna ręka na brzuchu Value: 0,158886906115611
+Name: Skręcający samolot Value: 0,306167015632697
+Measuring time: 98
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,140528662608442
+Name: Dowolna ręka na brzuchu Value: 0,203979588438355
+Name: Skręcający samolot Value: 0,463463124463791
+Measuring time: 133
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 165
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,457952498947264
+Name: Dowolna ręka na brzuchu Value: 0,847534383016879
+Name: Skręcający samolot Value: 0,735358754366642
+Measuring time: 69
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,471779018575774
+Name: Dowolna ręka na brzuchu Value: 0,846297680479777
+Name: Skręcający samolot Value: 0,770952263829418
+Measuring time: 72
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,352777261283299
+Name: Dowolna ręka na brzuchu Value: 0,831924056550637
+Name: Skręcający samolot Value: 0,68729416826752
+Measuring time: 173
+
+Saving to database
+Measuring started
+Measuring time: 570
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 891
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,99322032087092
+Name: Dowolna ręka na brzuchu Value: 0,00871475156404595
+Name: Skręcający samolot Value: 0,00599348416041654
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 51
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,000544069142396926
+Name: Dowolna ręka na brzuchu Value: 0,982549981903103
+Name: Skręcający samolot Value: 1,39485431171797E-05
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 77
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00898454866014842
+Name: Dowolna ręka na brzuchu Value: 0,993957637924357
+Name: Skręcający samolot Value: 2,19430574767368E-06
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 108
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0068567827466787
+Name: Dowolna ręka na brzuchu Value: 0,995630870615764
+Name: Skręcający samolot Value: 1,43554973353401E-06
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0683109353428598
+Name: Dowolna ręka na brzuchu Value: 6,64274235700329E-05
+Name: Skręcający samolot Value: 0,948181734167587
+Recognized gesture: Skręcający samolot
+Measuring time: 498
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00256341676738258
+Name: Dowolna ręka na brzuchu Value: 0,768394300668566
+Name: Skręcający samolot Value: 7,46760584993092E-05
+Measuring time: 49
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0004880939901463
+Name: Dowolna ręka na brzuchu Value: 0,976799273955126
+Name: Skręcający samolot Value: 1,91267797664401E-05
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 58
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00731061724215487
+Name: Dowolna ręka na brzuchu Value: 0,99495752849904
+Name: Skręcający samolot Value: 1,70585911306986E-06
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 70
+
+Saving to database
+Measuring started
+Measuring time: 567
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 278
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,99148950657421
+Name: Dowolna ręka na brzuchu Value: 0,00667082144827119
+Name: Skręcający samolot Value: 0,00368713781086124
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 139
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,989459774049403
+Name: Dowolna ręka na brzuchu Value: 0,0126430423644685
+Name: Skręcający samolot Value: 0,00321674119454666
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 45
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0052906032472131
+Name: Dowolna ręka na brzuchu Value: 0,995828822307163
+Name: Skręcający samolot Value: 1,23079527332085E-06
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 151
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00416403302682405
+Name: Dowolna ręka na brzuchu Value: 0,996611106345077
+Name: Skręcający samolot Value: 1,22173611058347E-06
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 72
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0903280737893474
+Name: Dowolna ręka na brzuchu Value: 2,89135398698211E-05
+Name: Skręcający samolot Value: 0,93616005171399
+Recognized gesture: Skręcający samolot
+Measuring time: 107
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0055336765308472
+Name: Dowolna ręka na brzuchu Value: 1,64292554449192E-06
+Name: Skręcający samolot Value: 0,995105484399106
+Recognized gesture: Skręcający samolot
+Measuring time: 83
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 580
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,816746402946127
+Name: Dowolna ręka na brzuchu Value: 0,917737083659857
+Name: Skręcający samolot Value: 0,00131044269191952
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 82
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,834656077378247
+Name: Dowolna ręka na brzuchu Value: 0,851084753219619
+Name: Skręcający samolot Value: 0,00335080606953281
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 52
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,772387108591591
+Name: Dowolna ręka na brzuchu Value: 0,902028793709892
+Name: Skręcający samolot Value: 0,00126359430840799
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 85
+
+Saving to database
+Measuring started
+Measuring time: 598
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 807
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,988940661674587
+Name: Dowolna ręka na brzuchu Value: 0,011909534278379
+Name: Skręcający samolot Value: 0,00442034985078144
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 172
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00190280963857042
+Name: Dowolna ręka na brzuchu Value: 0,99582074874625
+Name: Skręcający samolot Value: 0,000141192146609939
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 59
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0014637353671537
+Name: Dowolna ręka na brzuchu Value: 0,996695206763299
+Name: Skręcający samolot Value: 0,00013908290153575
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 113
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00584244911869954
+Name: Dowolna ręka na brzuchu Value: 0,994836699233577
+Name: Skręcający samolot Value: 5,17301931113891E-05
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 70
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00535878343723629
+Name: Dowolna ręka na brzuchu Value: 0,995476988740108
+Name: Skręcający samolot Value: 4,3334740542421E-05
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0190833499229807
+Name: Dowolna ręka na brzuchu Value: 9,15593834598058E-05
+Name: Skręcający samolot Value: 0,982314990949783
+Recognized gesture: Skręcający samolot
+Measuring time: 89
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,0079843700425471
+Name: Dowolna ręka na brzuchu Value: 0,972689102558722
+Name: Skręcający samolot Value: 0,000252297994029087
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 58
+
+Saving to database
+Measuring started
+Measuring time: 535
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 154
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,988685042816894
+Name: Dowolna ręka na brzuchu Value: 0,00374071475737717
+Name: Skręcający samolot Value: 0,0100591207055647
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 71
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,98827016062502
+Name: Dowolna ręka na brzuchu Value: 0,00397191959643709
+Name: Skręcający samolot Value: 0,00761404118281939
+Recognized gesture: Dowolna ręka w bok
+Measuring time: 62
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00558340482525863
+Name: Dowolna ręka na brzuchu Value: 0,996327575947546
+Name: Skręcający samolot Value: 1,53616978913104E-08
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 82
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00719399919802459
+Name: Dowolna ręka na brzuchu Value: 0,994090783052106
+Name: Skręcający samolot Value: 3,08298906005E-08
+Recognized gesture: Dowolna ręka na brzuchu
+Measuring time: 49
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00539292437136469
+Name: Dowolna ręka na brzuchu Value: 2,64921273943905E-06
+Name: Skręcający samolot Value: 0,995761381643849
+Recognized gesture: Skręcający samolot
+Measuring time: 119
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna ręka w bok Value: 0,00701274997391457
+Name: Dowolna ręka na brzuchu Value: 3,74174710012745E-06
+Name: Skręcający samolot Value: 0,995777426503722
+Recognized gesture: Skręcający samolot
+Measuring time: 89
 

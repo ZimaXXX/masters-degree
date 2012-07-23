@@ -87,7 +87,7 @@ namespace WPFApp
             System.IO.File.AppendAllText(pathToFile, text);
         }
 
-        public string pathToFile = @"C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\recognition.txt";
+        public string pathToFile = @Properties.Settings.Default.LogPath;
         private DateTime startTime;
         private DateTime StartTime 
         {
@@ -242,6 +242,7 @@ namespace WPFApp
 
         //GesturesStatus
         public string GesturesStatus_Gesture { get; set; }
+        public string GesturesStatus_NoGesture { get; set; }
         string currentInformation = "";
         public string CurrentInformation { 
             get 
@@ -594,7 +595,8 @@ namespace WPFApp
 
                     MainMenu = "Powrót";
 
-                    GesturesStatus_Gesture = "Brak gestu";
+                    GesturesStatus_NoGesture = "Brak gestu";
+                    GesturesStatus_Gesture = GesturesStatus_NoGesture;
                     CurrentInformation = "Brak informacji";
 
                     Info_CannotDecide = "Gest nierozpoznany";
@@ -647,7 +649,8 @@ namespace WPFApp
 
                     MainMenu = "Back";
 
-                    GesturesStatus_Gesture = "No gesture";
+                    GesturesStatus_NoGesture = "No gesture";
+                    GesturesStatus_Gesture = GesturesStatus_NoGesture;
                     CurrentInformation = "No information";
 
                     Info_CannotDecide = "Not recognized";
