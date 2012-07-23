@@ -1,0 +1,3 @@
+do grouponu
+
+imie nazwisko, zwrot na podane wczesniej konto, zwrot z powodu niemoznosci zalozenia aparatu, kod grouponu

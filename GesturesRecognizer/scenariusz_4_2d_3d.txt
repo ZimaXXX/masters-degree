@@ -1,0 +1,153 @@
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 815
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 811
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,788033693988442
+Name: Rêka na lewej piersi Value: 0,626997173074471
+Name: Rêka na brzuchu Value: 0,121099465066551
+Measuring time: 115
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,818639669386012
+Name: Rêka na lewej piersi Value: 0,596897527704723
+Name: Rêka na brzuchu Value: 0,118061927160668
+Measuring time: 106
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,812529834587493
+Name: Rêka na lewej piersi Value: 0,633522093690771
+Name: Rêka na brzuchu Value: 0,114733376659662
+Measuring time: 121
+
+Saving to database
+Measuring started
+Measuring time: 488
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 746
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,985812375713196
+Name: Rêka na lewej piersi Value: 0,00124335892435244
+Name: Rêka na brzuchu Value: 0,000868238934570305
+Recognized gesture: Rêka na prawej piersi
+Measuring time: 58
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,00790958905896309
+Name: Rêka na lewej piersi Value: 0,884575499647781
+Name: Rêka na brzuchu Value: 0,0335278305818938
+Recognized gesture: Rêka na lewej piersi
+Measuring time: 62
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 2,28221757313211E-05
+Name: Rêka na lewej piersi Value: 0,00311189125445577
+Name: Rêka na brzuchu Value: 0,997290612975028
+Recognized gesture: Rêka na brzuchu
+Measuring time: 147
+
+Saving to database
+Measuring started
+Measuring time: 978
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 768
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,137578077900287
+Name: Rêka na lewej piersi Value: 0,986954654887233
+Name: Rêka na brzuchu Value: 0,344345103232843
+Recognized gesture: Rêka na lewej piersi
+Measuring time: 81
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,106382917583839
+Name: Rêka na lewej piersi Value: 0,98610401566024
+Name: Rêka na brzuchu Value: 0,332679385393033
+Recognized gesture: Rêka na lewej piersi
+Measuring time: 66
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,103673547114882
+Name: Rêka na lewej piersi Value: 0,985222678716582
+Name: Rêka na brzuchu Value: 0,314638258220989
+Recognized gesture: Rêka na lewej piersi
+Measuring time: 102
+
+Saving to database
+Measuring started
+Measuring time: 516
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 31
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,972268552639154
+Name: Rêka na lewej piersi Value: 0,0279280398703831
+Name: Rêka na brzuchu Value: 4,73267700645507E-06
+Recognized gesture: Rêka na prawej piersi
+Measuring time: 102
+
+Saving to database
+Measuring started
+Measuring time: 761
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 0,00842586983325087
+Name: Rêka na lewej piersi Value: 0,978289888326696
+Name: Rêka na brzuchu Value: 0,0114769907091674
+Recognized gesture: Rêka na lewej piersi
+Measuring time: 68
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêka na prawej piersi Value: 3,15294073437821E-07
+Name: Rêka na lewej piersi Value: 0,01841247441231
+Name: Rêka na brzuchu Value: 0,990713205276549
+Recognized gesture: Rêka na brzuchu
+Measuring time: 72
+
+Saving to database
+Measuring started
+Measuring time: 423
+

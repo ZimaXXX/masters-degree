@@ -1,0 +1,46 @@
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\bin\Debug\WPFApp.exe.config
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp.exe
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp.pdb
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\bin\Debug\WPFApp.exe
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\bin\Debug\WPFApp.pdb
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\bin\Debug\HSynapse.dll
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\bin\Debug\HSynapse.pdb
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\App.baml
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\CircularMinuteTimer.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\InfoBoard.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\App.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp_Content.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp_MarkupCompile.cache
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp_MarkupCompile.lref
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\CircularMinuteTimer.baml
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\InfoBoard.baml
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\MainWindow.baml
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp.g.resources
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\WPFApp.Properties.Resources.resources
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Zima\Downloads\WPFApp (7)\WPFApp\WPFApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\bin\Debug\WPFApp.exe.config
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\bin\Debug\WPFApp.exe
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\bin\Debug\WPFApp.pdb
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\App.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\CircularMinuteTimer.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\InfoBoard.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\App.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp_Content.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp_MarkupCompile.cache
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp_MarkupCompile.lref
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\CircularMinuteTimer.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\InfoBoard.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\MainWindow.baml
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp.g.resources
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp.Properties.Resources.resources
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp.exe
+C:\Users\Zima\Documents\Visual Studio 2010\Projects\WPFApp\WPFApp\obj\x86\Debug\WPFApp.pdb

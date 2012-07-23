@@ -1,0 +1,8 @@
+19.01.2012
+TODO WpfApp:
+
+zrobic reinicjalizacje wartosci z ExtendedCMT przy kliknieciu back (spowoduje to przywrocenie wartosci jezeli nie bylo klikniete apply)
+	ciezka sprawa bo binding nie dziala na value:/
+wymyslic format zapisu do pliku
+dodac ekran w gestures do wyswietlania wyniku sieci neuronowej (moze stackpanel?)
+dorobic przetwarzanie dynamicznego gestu

@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WPFApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Language" Type="WPFApp.Languages" Scope="User">
+      <Value Profile="(Default)">EN</Value>
+    </Setting>
+    <Setting Name="AnimationDirection" Type="WPFApp.Directions" Scope="User">
+      <Value Profile="(Default)">RIGHT</Value>
+    </Setting>
+    <Setting Name="CombinedAnimationDirection" Type="WPFApp.CombinedDirections" Scope="User">
+      <Value Profile="(Default)">RANDOM</Value>
+    </Setting>
+    <Setting Name="AnimationTime" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+    <Setting Name="MainWindowName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mainWindow</Value>
+    </Setting>
+    <Setting Name="MainCanvasName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mainCanvas</Value>
+    </Setting>
+    <Setting Name="CMTWidth" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="CMTHeight" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="HiddenNeurons" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="Momentum" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+    <Setting Name="LearnRate" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.9</Value>
+    </Setting>
+    <Setting Name="Epochs" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="IBVisibilityTimeout" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0:0:5</Value>
+    </Setting>
+    <Setting Name="ExportPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Zima\masters-degree\KinectGestureRecognition\recognition.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

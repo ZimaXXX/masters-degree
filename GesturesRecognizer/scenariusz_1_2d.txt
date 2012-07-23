@@ -1,0 +1,175 @@
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 127
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 834
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,85936657078041
+Name: Rêce do modlitwy Value: 0,393750416316352
+Name: Rêce jak si³acz Value: 0,739678408922032
+Name: Rêce do przodu Value: 0,439076338708919
+Name: Rêce na czole Value: 0,971372041491576
+Name: Rêce na biodrach Value: 0,0135874522164156
+Recognized gesture: Rêce na czole
+Measuring time: 77
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,830584625611907
+Name: Rêce do modlitwy Value: 0,373133210771165
+Name: Rêce jak si³acz Value: 0,713944898841934
+Name: Rêce do przodu Value: 0,507380157274935
+Name: Rêce na czole Value: 0,935344005493693
+Name: Rêce na biodrach Value: 0,0077043526966256
+Recognized gesture: Rêce na czole
+Measuring time: 115
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,842541771049204
+Name: Rêce do modlitwy Value: 0,406666413931004
+Name: Rêce jak si³acz Value: 0,715180254371001
+Name: Rêce do przodu Value: 0,490813256324845
+Name: Rêce na czole Value: 0,962259274966742
+Name: Rêce na biodrach Value: 0,00977301231449154
+Recognized gesture: Rêce na czole
+Measuring time: 99
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,83633772023983
+Name: Rêce do modlitwy Value: 0,442190717273431
+Name: Rêce jak si³acz Value: 0,733814784325341
+Name: Rêce do przodu Value: 0,541214618321581
+Name: Rêce na czole Value: 0,960744177540244
+Name: Rêce na biodrach Value: 0,0100217842236381
+Recognized gesture: Rêce na czole
+Measuring time: 127
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,831710959866464
+Name: Rêce do modlitwy Value: 0,538387765667715
+Name: Rêce jak si³acz Value: 0,782998879070368
+Name: Rêce do przodu Value: 0,524535672606266
+Name: Rêce na czole Value: 0,967832683465918
+Name: Rêce na biodrach Value: 0,0105450830599783
+Recognized gesture: Rêce na czole
+Measuring time: 89
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,839173301390294
+Name: Rêce do modlitwy Value: 0,257500294984026
+Name: Rêce jak si³acz Value: 0,759787348148451
+Name: Rêce do przodu Value: 0,450573179135851
+Name: Rêce na czole Value: 0,911146693317517
+Name: Rêce na biodrach Value: 0,0114125234702294
+Recognized gesture: Rêce na czole
+Measuring time: 204
+
+Saving to database
+Measuring started
+Measuring time: 432
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 194
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,984965649820073
+Name: Rêce do modlitwy Value: 2,36870622636258E-08
+Name: Rêce jak si³acz Value: 0,00678177551031668
+Name: Rêce do przodu Value: 0,00258618511100192
+Name: Rêce na czole Value: 9,2272974389582E-08
+Name: Rêce na biodrach Value: 0,00960953270385617
+Recognized gesture: Rêce szeroko
+Measuring time: 112
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 4,7017440669491E-08
+Name: Rêce do modlitwy Value: 0,972993999551895
+Name: Rêce jak si³acz Value: 0,0159705323224818
+Name: Rêce do przodu Value: 0,0015021465421171
+Name: Rêce na czole Value: 0,00295492375743307
+Name: Rêce na biodrach Value: 0,00560188824627999
+Recognized gesture: Rêce do modlitwy
+Measuring time: 59
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,00526400973779282
+Name: Rêce do modlitwy Value: 0,00131259789969378
+Name: Rêce jak si³acz Value: 0,973901347161496
+Name: Rêce do przodu Value: 0,0113420104732903
+Name: Rêce na czole Value: 0,00025036523837714
+Name: Rêce na biodrach Value: 0,00354044008026266
+Recognized gesture: Rêce jak si³acz
+Measuring time: 123
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,00058189462535514
+Name: Rêce do modlitwy Value: 0,00403578102886651
+Name: Rêce jak si³acz Value: 0,00824232820160594
+Name: Rêce do przodu Value: 0,987864334555466
+Name: Rêce na czole Value: 0,0114040231543916
+Name: Rêce na biodrach Value: 2,84090022217287E-06
+Recognized gesture: Rêce do przodu
+Measuring time: 92
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 1,93784757785837E-05
+Name: Rêce do modlitwy Value: 0,00555553210589166
+Name: Rêce jak si³acz Value: 0,000643874001030373
+Name: Rêce do przodu Value: 0,0051842521031844
+Name: Rêce na czole Value: 0,990467300410492
+Name: Rêce na biodrach Value: 4,39202513750725E-07
+Recognized gesture: Rêce na czole
+Measuring time: 52
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Rêce szeroko Value: 0,000672729761237729
+Name: Rêce do modlitwy Value: 0,00313300933381499
+Name: Rêce jak si³acz Value: 0,00487250159532679
+Name: Rêce do przodu Value: 1,08908062291326E-05
+Name: Rêce na czole Value: 3,61234156197319E-09
+Name: Rêce na biodrach Value: 0,992333194782563
+Recognized gesture: Rêce na biodrach
+Measuring time: 81
+
+Saving to database
+Measuring started
+Measuring time: 465
+
+Measuring started
+Learning network
+Number of examples: 12
+Measuring time: 262
+

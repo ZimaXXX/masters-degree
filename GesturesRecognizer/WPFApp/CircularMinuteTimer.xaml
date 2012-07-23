@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="WPFApp.CircularMinuteTimer"
+						 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+						 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+						 xmlns:Runner="clr-namespace:WPFApp"
+                         x:Name="circularMinuteTimer"
+                         Loaded="circularMinuteTimer_Loaded"
+                         >
+    <UserControl.Resources>
+        <Runner:ProgressToAngleConverter x:Key="ProgressConverter" />
+        <Storyboard x:Key="ActivateEllipse">
+            <DoubleAnimationUsingKeyFrames
+                        Storyboard.TargetName="MainEllipse"
+                        Storyboard.TargetProperty="(Ellipse.Opacity)">
+                <DiscreteDoubleKeyFrame
+                            KeyTime="00:00:00.001"
+                            Value="0.8" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="DeactivateEllipse">
+            <DoubleAnimationUsingKeyFrames
+                        Storyboard.TargetName="MainEllipse"
+                        Storyboard.TargetProperty="(Ellipse.Opacity)">
+                <DiscreteDoubleKeyFrame
+                            KeyTime="00:00:00.001"
+                            Value="0.5" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Style TargetType="ProgressBar">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ProgressBar">
+                        <Grid>
+
+                            <Runner:Arc StrokeThickness="15"
+														Stroke="{TemplateBinding BorderBrush}"
+														Margin="-5">
+                                <Runner:Arc.StartAngle>
+                                    <MultiBinding Converter="{StaticResource ProgressConverter}">
+                                        <Binding Path="Minimum"
+														 RelativeSource="{RelativeSource TemplatedParent}" />
+                                        <Binding Path="."
+														 RelativeSource="{RelativeSource TemplatedParent}" />
+                                    </MultiBinding>
+                                </Runner:Arc.StartAngle>
+                                <Runner:Arc.EndAngle>
+                                    <MultiBinding Converter="{StaticResource ProgressConverter}">
+                                        <Binding Path="Value"
+														 RelativeSource="{RelativeSource TemplatedParent}" />
+                                        <Binding Path="."
+														 RelativeSource="{RelativeSource TemplatedParent}" />
+                                    </MultiBinding>
+                                </Runner:Arc.EndAngle>
+                            </Runner:Arc>
+
+
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Ellipse Width="{Binding Path=Width, Source=circularMinuteTimer}" Height="{Binding Path=Height, Source=circularMinuteTimer}" x:Name="MainEllipse"/>
+        <DockPanel x:Name="MainDockPanel" Width="{Binding Path=Width, Source=circularMinuteTimer}" Height="{Binding Path=Height, Source=circularMinuteTimer}">
+            <Viewbox
+              Margin="15"
+              VerticalAlignment="Stretch"
+              Height="Auto">
+                <StackPanel x:Name="ViewBoxStackPanel">
+                    <TextBlock Text="{Binding Path=Caption,ElementName=circularMinuteTimer}"
+				Foreground="White"
+				VerticalAlignment="Center"
+				HorizontalAlignment="Center"
+				FontWeight="Bold" />
+                </StackPanel>
+            </Viewbox>
+
+        </DockPanel>
+        <ProgressBar x:Name="_progress"
+								 Minimum="0"
+								 Maximum="60"
+								 Value="0"
+								 Background="#7f7f7f"
+                                 BorderBrush="White"
+                                />
+    </Grid>
+
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Runner:RutedEvent.startTimer">
+            <BeginStoryboard Storyboard="{StaticResource ActivateEllipse}"/>
+            <BeginStoryboard Name="StrokeTimer">
+                <Storyboard Completed="Progress_Completed">
+                    <DoubleAnimation From="0"
+					    To="61"
+					    Storyboard.TargetName="_progress"
+					    Storyboard.TargetProperty="Value"
+					    Duration="0:0:1" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Runner:RutedEvent.stopTimer">
+            <BeginStoryboard Storyboard="{StaticResource DeactivateEllipse}"/>
+            <StopStoryboard BeginStoryboardName="StrokeTimer"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+</UserControl>

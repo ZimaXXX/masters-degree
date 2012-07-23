@@ -1,0 +1,375 @@
+###############
+Application started
+###############
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 587
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 224
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0991763763642051
+Name: Dowolna rêka na brzuchu Value: 0,166765171684777
+Name: Skrêcaj¹cy samolot Value: 0,35348402914014
+Measuring time: 116
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,114448656275265
+Name: Dowolna rêka na brzuchu Value: 0,158886906115611
+Name: Skrêcaj¹cy samolot Value: 0,306167015632697
+Measuring time: 98
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,140528662608442
+Name: Dowolna rêka na brzuchu Value: 0,203979588438355
+Name: Skrêcaj¹cy samolot Value: 0,463463124463791
+Measuring time: 133
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 165
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,457952498947264
+Name: Dowolna rêka na brzuchu Value: 0,847534383016879
+Name: Skrêcaj¹cy samolot Value: 0,735358754366642
+Measuring time: 69
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,471779018575774
+Name: Dowolna rêka na brzuchu Value: 0,846297680479777
+Name: Skrêcaj¹cy samolot Value: 0,770952263829418
+Measuring time: 72
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,352777261283299
+Name: Dowolna rêka na brzuchu Value: 0,831924056550637
+Name: Skrêcaj¹cy samolot Value: 0,68729416826752
+Measuring time: 173
+
+Saving to database
+Measuring started
+Measuring time: 570
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 891
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,99322032087092
+Name: Dowolna rêka na brzuchu Value: 0,00871475156404595
+Name: Skrêcaj¹cy samolot Value: 0,00599348416041654
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 51
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,000544069142396926
+Name: Dowolna rêka na brzuchu Value: 0,982549981903103
+Name: Skrêcaj¹cy samolot Value: 1,39485431171797E-05
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 77
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00898454866014842
+Name: Dowolna rêka na brzuchu Value: 0,993957637924357
+Name: Skrêcaj¹cy samolot Value: 2,19430574767368E-06
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 108
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0068567827466787
+Name: Dowolna rêka na brzuchu Value: 0,995630870615764
+Name: Skrêcaj¹cy samolot Value: 1,43554973353401E-06
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0683109353428598
+Name: Dowolna rêka na brzuchu Value: 6,64274235700329E-05
+Name: Skrêcaj¹cy samolot Value: 0,948181734167587
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 498
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00256341676738258
+Name: Dowolna rêka na brzuchu Value: 0,768394300668566
+Name: Skrêcaj¹cy samolot Value: 7,46760584993092E-05
+Measuring time: 49
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0004880939901463
+Name: Dowolna rêka na brzuchu Value: 0,976799273955126
+Name: Skrêcaj¹cy samolot Value: 1,91267797664401E-05
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 58
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00731061724215487
+Name: Dowolna rêka na brzuchu Value: 0,99495752849904
+Name: Skrêcaj¹cy samolot Value: 1,70585911306986E-06
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 70
+
+Saving to database
+Measuring started
+Measuring time: 567
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 278
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,99148950657421
+Name: Dowolna rêka na brzuchu Value: 0,00667082144827119
+Name: Skrêcaj¹cy samolot Value: 0,00368713781086124
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 139
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,989459774049403
+Name: Dowolna rêka na brzuchu Value: 0,0126430423644685
+Name: Skrêcaj¹cy samolot Value: 0,00321674119454666
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 45
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0052906032472131
+Name: Dowolna rêka na brzuchu Value: 0,995828822307163
+Name: Skrêcaj¹cy samolot Value: 1,23079527332085E-06
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 151
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00416403302682405
+Name: Dowolna rêka na brzuchu Value: 0,996611106345077
+Name: Skrêcaj¹cy samolot Value: 1,22173611058347E-06
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 72
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0903280737893474
+Name: Dowolna rêka na brzuchu Value: 2,89135398698211E-05
+Name: Skrêcaj¹cy samolot Value: 0,93616005171399
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 107
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0055336765308472
+Name: Dowolna rêka na brzuchu Value: 1,64292554449192E-06
+Name: Skrêcaj¹cy samolot Value: 0,995105484399106
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 83
+
+Measuring started
+Learning network
+Number of examples: 0
+Measuring time: 580
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,816746402946127
+Name: Dowolna rêka na brzuchu Value: 0,917737083659857
+Name: Skrêcaj¹cy samolot Value: 0,00131044269191952
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 82
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,834656077378247
+Name: Dowolna rêka na brzuchu Value: 0,851084753219619
+Name: Skrêcaj¹cy samolot Value: 0,00335080606953281
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 52
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,772387108591591
+Name: Dowolna rêka na brzuchu Value: 0,902028793709892
+Name: Skrêcaj¹cy samolot Value: 0,00126359430840799
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 85
+
+Saving to database
+Measuring started
+Measuring time: 598
+
+Measuring started
+Learning network
+Number of examples: 3
+Measuring time: 807
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,988940661674587
+Name: Dowolna rêka na brzuchu Value: 0,011909534278379
+Name: Skrêcaj¹cy samolot Value: 0,00442034985078144
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 172
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00190280963857042
+Name: Dowolna rêka na brzuchu Value: 0,99582074874625
+Name: Skrêcaj¹cy samolot Value: 0,000141192146609939
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 59
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0014637353671537
+Name: Dowolna rêka na brzuchu Value: 0,996695206763299
+Name: Skrêcaj¹cy samolot Value: 0,00013908290153575
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 113
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00584244911869954
+Name: Dowolna rêka na brzuchu Value: 0,994836699233577
+Name: Skrêcaj¹cy samolot Value: 5,17301931113891E-05
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 70
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00535878343723629
+Name: Dowolna rêka na brzuchu Value: 0,995476988740108
+Name: Skrêcaj¹cy samolot Value: 4,3334740542421E-05
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 63
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0190833499229807
+Name: Dowolna rêka na brzuchu Value: 9,15593834598058E-05
+Name: Skrêcaj¹cy samolot Value: 0,982314990949783
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 89
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,0079843700425471
+Name: Dowolna rêka na brzuchu Value: 0,972689102558722
+Name: Skrêcaj¹cy samolot Value: 0,000252297994029087
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 58
+
+Saving to database
+Measuring started
+Measuring time: 535
+
+Measuring started
+Learning network
+Number of examples: 6
+Measuring time: 154
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,988685042816894
+Name: Dowolna rêka na brzuchu Value: 0,00374071475737717
+Name: Skrêcaj¹cy samolot Value: 0,0100591207055647
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 71
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,98827016062502
+Name: Dowolna rêka na brzuchu Value: 0,00397191959643709
+Name: Skrêcaj¹cy samolot Value: 0,00761404118281939
+Recognized gesture: Dowolna rêka w bok
+Measuring time: 62
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00558340482525863
+Name: Dowolna rêka na brzuchu Value: 0,996327575947546
+Name: Skrêcaj¹cy samolot Value: 1,53616978913104E-08
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 82
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00719399919802459
+Name: Dowolna rêka na brzuchu Value: 0,994090783052106
+Name: Skrêcaj¹cy samolot Value: 3,08298906005E-08
+Recognized gesture: Dowolna rêka na brzuchu
+Measuring time: 49
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00539292437136469
+Name: Dowolna rêka na brzuchu Value: 2,64921273943905E-06
+Name: Skrêcaj¹cy samolot Value: 0,995761381643849
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 119
+
+Measuring started
+Performing recognition
+Recognition values
+Name: Dowolna rêka w bok Value: 0,00701274997391457
+Name: Dowolna rêka na brzuchu Value: 3,74174710012745E-06
+Name: Skrêcaj¹cy samolot Value: 0,995777426503722
+Recognized gesture: Skrêcaj¹cy samolot
+Measuring time: 89
