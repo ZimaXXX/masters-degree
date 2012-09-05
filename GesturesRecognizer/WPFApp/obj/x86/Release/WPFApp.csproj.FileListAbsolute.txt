@@ -68,3 +68,6 @@ C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPF
 C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\WPFApp.Properties.Resources.resources
 C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\GenerateResource.read.1.tlog
 C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\GenerateResource.write.1.tlog
+C:\users\zima\masters-degree\GesturesRecognizer\WPFApp\bin\Release\WPFApp.exe.config
+C:\users\zima\masters-degree\GesturesRecognizer\WPFApp\obj\x86\Release\WPFApp.exe
+C:\users\zima\masters-degree\GesturesRecognizer\WPFApp\obj\x86\Release\WPFApp.pdb

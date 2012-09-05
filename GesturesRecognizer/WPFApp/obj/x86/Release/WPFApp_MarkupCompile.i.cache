@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\obj\x86\Release\
+C:\users\zima\masters-degree\GesturesRecognizer\WPFApp\obj\x86\Release\
 WPFApp
 none
 false
 TRACE
-C:\Users\Zima\masters-degree\KinectGestureRecognition\WPFApp\App.xaml
+C:\users\zima\masters-degree\GesturesRecognizer\WPFApp\App.xaml
 3-1080063555
 11940651099
 2776017826
-171540045760
+171606541482
 CircularMinuteTimer.xaml;InfoBoard.xaml;MainWindow.xaml;
 
 True
